@@ -50,9 +50,9 @@ private lateinit var currTime: String
 private lateinit var clientLat: String
 private lateinit var imageUri: Uri
 private lateinit var clientLong: String
-private lateinit var vetLongitude: String
+private lateinit var serviceManLongitude: String
 private lateinit var clientDb: DatabaseReference
-private lateinit var vetLatitude: String
+private lateinit var serviceManLatitude: String
 private lateinit var clientUsername: String
 private lateinit var locationRequest: com.google.android.gms.location.LocationRequest
 private lateinit var auth: FirebaseAuth
@@ -80,18 +80,17 @@ class ClientSelectServiceActivity : AppCompatActivity() {
             startActivityForResult(galleryInt, 2)
         }
         locationList = arrayListOf<DoctorLocation>()
-        val genderList = listOf("Male", "Female", "Other")
-        val serviceList = listOf("AI", "Injury", "Vaccination")
-        val categoryList = listOf("Dog", "Sheep", "Cattle", "Goat")
+        val serviceAreas = listOf("Kitchen", "Bathroom", "Open Area","Rooms")
+        val categoryList = listOf("Plumbing", "Electrical", "Cleaning", "Furniture","Painting")
         val categoryAdapter = ArrayAdapter<String>(
             this,
             androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, categoryList
         )
-        binding.spCategory.adapter = categoryAdapter
-        val serviceAdapter = ArrayAdapter<String>(
+        val locationAreaAdapter = ArrayAdapter<String>(
             this,
-            androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, serviceList
+            androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, serviceAreas
         )
+        binding.spCategory.adapter = categoryAdapter
 
 //        initialize category adapter
         binding.spCategory.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
@@ -124,7 +123,9 @@ class ClientSelectServiceActivity : AppCompatActivity() {
 
             override fun onNothingSelected(p0: AdapterView<*>?) {
             }
+
         }
+        binding.spLocationArea.adapter = locationAreaAdapter
         binding.servicePhoto.setOnClickListener {
             val galleryInt = Intent()
             galleryInt.action = Intent.ACTION_GET_CONTENT
@@ -189,8 +190,8 @@ class ClientSelectServiceActivity : AppCompatActivity() {
                             val item = snap.getValue(DoctorLocation::class.java)
                             val docSt = vet_id
                             if (item!!.doctorUid == docSt) {
-                                vetLatitude = item.doctorLatitude.toString()
-                                vetLongitude = item.doctorLongitude.toString()
+                                serviceManLatitude = item.doctorLatitude.toString()
+                                serviceManLongitude = item.doctorLongitude.toString()
                             }
                             locationList.add(item)
                         }
@@ -327,8 +328,8 @@ class ClientSelectServiceActivity : AppCompatActivity() {
                         intent.putExtra("clientLatitude", clientLat)
                         intent.putExtra("animalCategory", txCategory)
                         intent.putExtra("clientService", txService)
-                        intent.putExtra("vetLatitude", vetLatitude)
-                        intent.putExtra("vetLongitude", vetLongitude)
+                        intent.putExtra("vetLatitude", serviceManLatitude)
+                        intent.putExtra("vetLongitude", serviceManLongitude)
                         intent.putExtra("vetDocId", vet_id)
                         intent.putExtra("clientName", clientUsername)
                         intent.putExtra("requestTime", currTime)
