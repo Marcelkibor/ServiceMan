@@ -147,8 +147,8 @@
 82        </activity>
 83        <activity
 83-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:62:9-66:20
-84            android:name="com.example.petvet.AuthenticatedVetActivity"
-84-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:63:13-53
+84            android:name="com.example.petvet.AuthenticatedServiceManActivity"
+84-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:63:13-60
 85            android:exported="true" >
 85-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:64:13-36
 86        </activity>
@@ -165,8 +165,8 @@
 92-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:73:13-48
 93            android:exported="true"
 93-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:74:13-36
-94            android:parentActivityName="com.example.petvet.AuthenticatedVetActivity" >
-94-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:75:13-67
+94            android:parentActivityName="com.example.petvet.AuthenticatedServiceManActivity" >
+94-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:75:13-74
 95        </activity>
 96        <activity
 96-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:78:9-80:39

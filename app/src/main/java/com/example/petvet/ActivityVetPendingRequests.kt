@@ -35,7 +35,7 @@ class ActivityVetPendingRequests : AppCompatActivity() {
         requestRecyclerView.layoutManager = LinearLayoutManager(this)
         requestRecyclerView.setHasFixedSize(true)
         binding.backArrow.setOnClickListener {
-            val intent = Intent(this, AuthenticatedVetActivity::class.java)
+            val intent = Intent(this, AuthenticatedServiceManActivity::class.java)
             startActivity(intent)
             finish()
         }
@@ -69,7 +69,6 @@ class ActivityVetPendingRequests : AppCompatActivity() {
                                 val animCategory = requestList[position].category
                                 val imageUri = requestList[position].imageUri
                                 val requestTime = requestList[position].requestTime
-                                val animAge = requestList[position].age
                                 val vet_id = requestList[position].vetID
                                 binding.backArrow.setOnClickListener {
                                     val intent = Intent(
@@ -92,7 +91,6 @@ class ActivityVetPendingRequests : AppCompatActivity() {
                                 intent.putExtra("imageUri", imageUri)
                                 intent.putExtra("svDesc", svDesc)
                                 intent.putExtra("vet_id", vet_id)
-                                intent.putExtra("animAge", animAge)
                                 startActivity(intent)
                                 finish()
                             }

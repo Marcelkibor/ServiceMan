@@ -33,7 +33,7 @@ class ActivityDoctorConfirmedOrders : AppCompatActivity() {
         rvAcceptedOrders.setHasFixedSize(true)
         confirmedServiceList = arrayListOf<ClientRequest>()
         binding.backArrow.setOnClickListener {
-            val intent = Intent(this, AuthenticatedVetActivity::class.java)
+            val intent = Intent(this, AuthenticatedServiceManActivity::class.java)
             startActivity(intent)
             finish()
 

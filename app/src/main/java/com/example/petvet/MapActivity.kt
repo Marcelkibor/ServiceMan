@@ -47,12 +47,10 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
     private lateinit var requestId: String
     private lateinit var binding: MapActivityBinding
     private lateinit var currentService: String
-    private lateinit var animalAge: String
     private lateinit var finDist: String
     private lateinit var txLocationArea:String
     private lateinit var animalCategory: String
     private lateinit var requestDesc: String
-    private lateinit var animalGender: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -130,7 +128,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
             val currTime = SimpleDateFormat("M / d / Y").format(currDay.time).toString()
             val clientRequest = ClientRequest(
                 requestId, currentService, requestDesc,
-                animalGender, animalAge, animalCategory, auth.currentUser?.uid, imageUri,
+                txLocationArea, animalCategory, auth.currentUser?.uid, imageUri,
                 currTime, clientUsername, vetDocId
             )
             val historyDb = FirebaseDatabase.getInstance().getReference("CompletedRequest")
@@ -173,11 +171,11 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
     @SuppressLint("SimpleDateFormat", "WeekBasedYear")
     private fun includePayment() {
+        val dialog = Dialog(this@MapActivity)
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
+        dialog.setContentView(R.layout.custom_dialog)
+        dialog.setCancelable(false)
         try {
-            val dialog = Dialog(this@MapActivity)
-            dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
-            dialog.setContentView(R.layout.custom_dialog)
-            dialog.setCancelable(false)
             dialog.show()
             dbRef = FirebaseDatabase.getInstance().getReference("Payment")
             val key = FirebaseDatabase.getInstance().getReference("Payment").push().key.toString()
@@ -226,6 +224,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
             }
         } catch (e: Exception) {
             Toast.makeText(this, e.message, Toast.LENGTH_SHORT).show()
+            dialog.hide()
         }
 
     }

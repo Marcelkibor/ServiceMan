@@ -6,7 +6,6 @@ public class ClientRequest {
     private String requestDescription;
     private String sex;
     private String category;
-    private String age;
     private String clientID;
     private String imageUri;
     private String requestTime;
@@ -18,7 +17,7 @@ public class ClientRequest {
 
     public ClientRequest(String requestID, String serviceName,
                          String requestDescription,
-                         String sex, String age, String category,
+                         String sex, String category,
                          String clientID, String imageUri,
                          String requestTime,String clientName,String vetID) {
         this.requestID = requestID;
@@ -26,7 +25,6 @@ public class ClientRequest {
         this.requestDescription = requestDescription;
         this.sex = sex;
         this.category = category;
-        this.age = age;
         this.clientID = clientID;
         this.imageUri = imageUri;
         this.requestTime = requestTime;
@@ -61,9 +59,6 @@ public class ClientRequest {
         return clientID;
     }
 
-    public String getAge() {
-        return age;
-    }
 
     public String getRequestDescription() {
         return requestDescription;
@@ -118,9 +113,6 @@ public class ClientRequest {
         this.requestTime = requestTime;
     }
 
-    public void setAge(String age) {
-        this.age = age;
-    }
 
     public void setImageUri(String imageUri) {
         this.imageUri = imageUri;

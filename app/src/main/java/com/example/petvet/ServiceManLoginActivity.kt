@@ -41,7 +41,7 @@ class ServiceManLoginActivity : AppCompatActivity() {
             )
                 .addOnCompleteListener { task ->
                     if (task.isSuccessful) {
-                        val intent = Intent(this, AuthenticatedVetActivity::class.java)
+                        val intent = Intent(this, AuthenticatedServiceManActivity::class.java)
                         startActivity(intent)
                         Toast.makeText(this, "Login Success", Toast.LENGTH_SHORT).show()
                         finish()

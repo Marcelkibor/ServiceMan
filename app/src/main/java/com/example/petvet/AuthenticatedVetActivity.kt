@@ -29,7 +29,7 @@ private lateinit var displayName:String
 private lateinit var displayEmail:String
 @SuppressLint("StaticFieldLeak")
 
-class AuthenticatedVetActivity : AppCompatActivity() {
+class AuthenticatedServiceManActivity : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         fetchDisplayName()
@@ -120,14 +120,14 @@ class AuthenticatedVetActivity : AppCompatActivity() {
 
                 override fun onCancelled(error: DatabaseError) {
                     Toast.makeText(
-                        this@AuthenticatedVetActivity,
+                        this@AuthenticatedServiceManActivity,
                         error.message,
                         Toast.LENGTH_SHORT
                     ).show()
                 }
             })
         } catch (e: Exception) {
-            Toast.makeText(this@AuthenticatedVetActivity, e.message, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@AuthenticatedServiceManActivity, e.message, Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -162,7 +162,7 @@ class AuthenticatedVetActivity : AppCompatActivity() {
     }
 
     private fun goHome() {
-        val intent = Intent(this, AuthenticatedVetActivity::class.java)
+        val intent = Intent(this, AuthenticatedServiceManActivity::class.java)
         startActivity(intent)
     }
 

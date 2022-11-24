@@ -89,8 +89,7 @@ class VetEditRequest : AppCompatActivity() {
             val currTime = SimpleDateFormat("M / d / Y / H:m:s ").format(currDay.time).toString()
             if (userId != null) {
                 val clientConfirmRequest = ClientRequest(
-                   request_id, svService, svDesc, animSex,
-                    animAge, svCategory, client_uid,
+                   request_id, svService, svDesc, animSex, svCategory, client_uid,
                     imageUri.toString(), requestTime, clientUsername,vet_id
                 )
                 clearedRequestDb.child(key).setValue(clientConfirmRequest).addOnCompleteListener {
@@ -118,7 +117,7 @@ class VetEditRequest : AppCompatActivity() {
                         snapshot.ref.removeValue()
                         Toast.makeText(this@VetEditRequest, "Success!", Toast.LENGTH_SHORT).show()
                         val intent =
-                            Intent(this@VetEditRequest, AuthenticatedVetActivity::class.java)
+                            Intent(this@VetEditRequest, AuthenticatedServiceManActivity::class.java)
                         startActivity(intent)
                         finish()
                     }

@@ -24,7 +24,7 @@ class ActivityAcceptedRequest : AppCompatActivity(){
     rvAcceptedRyc = binding.rvAccepted
     binding.backArrow.isClickable = true
     binding.backArrow.setOnClickListener{
-    val intent = Intent(this,AuthenticatedVetActivity::class.java)
+    val intent = Intent(this,AuthenticatedServiceManActivity::class.java)
     startActivity(intent)
     }
     rvAcceptedRyc.layoutManager = LinearLayoutManager(this@ActivityAcceptedRequest)

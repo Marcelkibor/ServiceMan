@@ -24,7 +24,7 @@ class ActivityRejectedRequest : AppCompatActivity() {
         rvRejectedRyc = binding.rvRejected
         binding.backArrow.isClickable = true
         binding.backArrow.setOnClickListener{
-            val intent = Intent(this,AuthenticatedVetActivity::class.java)
+            val intent = Intent(this,AuthenticatedServiceManActivity::class.java)
             startActivity(intent)
         }
         rvRejectedRyc.layoutManager = LinearLayoutManager(this@ActivityRejectedRequest)

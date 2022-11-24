@@ -34,7 +34,7 @@ class ActivityVetAddService : AppCompatActivity() {
             ArrayAdapter<String>(this, R.layout.support_simple_spinner_dropdown_item, genderList)
         binding.spCategory.adapter = adapter
         binding.backArrow.setOnClickListener {
-            val intent = Intent(this, AuthenticatedVetActivity::class.java)
+            val intent = Intent(this, AuthenticatedServiceManActivity::class.java)
             startActivity(intent)
             finish()
         }

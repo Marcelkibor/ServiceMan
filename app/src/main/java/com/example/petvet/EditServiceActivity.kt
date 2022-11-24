@@ -60,7 +60,7 @@ class EditServiceActivity : AppCompatActivity() {
                     if (snapshot.exists()){
                         snapshot.ref.removeValue()
                         Toast.makeText(this@EditServiceActivity,"Service deleted!", Toast.LENGTH_SHORT).show()
-                        val intent = Intent(this@EditServiceActivity,AuthenticatedVetActivity::class.java)
+                        val intent = Intent(this@EditServiceActivity,AuthenticatedServiceManActivity::class.java)
                         startActivity(intent)
                         finish()
                     }

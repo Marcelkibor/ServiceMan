@@ -55,7 +55,7 @@ class ActivityTrackRequest : AppCompatActivity(), OnMapReadyCallback {
         auth = FirebaseAuth.getInstance()
         binding = FragmentTrackRequestBinding.inflate(layoutInflater)
         binding.backArrow.setOnClickListener {
-            val intent = Intent(this, AuthenticatedVetActivity::class.java)
+            val intent = Intent(this, AuthenticatedServiceManActivity::class.java)
             startActivity(intent)
             finish()
         }

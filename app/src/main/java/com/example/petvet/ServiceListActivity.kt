@@ -34,7 +34,7 @@ class ServiceListActivity : AppCompatActivity() {
         doctorRecyclerView = binding.serRv
         binding.backArrow.isClickable = true
         binding.backArrow.setOnClickListener{
-            val intent = Intent(this,AuthenticatedVetActivity::class.java)
+            val intent = Intent(this,AuthenticatedServiceManActivity::class.java)
             startActivity(intent)
         }
 

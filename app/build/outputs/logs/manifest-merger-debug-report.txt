@@ -282,12 +282,12 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:59:17-77
 	android:name
 		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:59:27-74
-activity#com.example.petvet.AuthenticatedVetActivity
+activity#com.example.petvet.AuthenticatedServiceManActivity
 ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:62:9-66:20
 	android:exported
 		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:64:13-36
 	android:name
-		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:63:13-53
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:63:13-60
 activity#com.example.petvet.ClientSelectServiceActivity
 ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:67:9-71:20
 	android:exported
@@ -297,7 +297,7 @@ ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src
 activity#com.example.petvet.ServiceListActivity
 ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:72:9-77:20
 	android:parentActivityName
-		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:75:13-67
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:75:13-74
 	android:exported
 		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:74:13-36
 	android:name

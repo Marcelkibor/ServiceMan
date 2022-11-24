@@ -36,7 +36,7 @@ class ActivityVetEditAccount : AppCompatActivity() {
         binding = ClientEditAccountBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.backArrow.setOnClickListener {
-            val intent = Intent(this, AuthenticatedVetActivity::class.java)
+            val intent = Intent(this, AuthenticatedServiceManActivity::class.java)
             startActivity(intent)
             finish()
 
