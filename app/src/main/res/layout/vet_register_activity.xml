@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#D3D3D5"
     android:elevation="20dp"
-    tools:context=".VetRegisterActivity"
+    tools:context=".ServiceManRegisterActivity"
     tools:ignore="MissingDefaultResource">
 
     <androidx.cardview.widget.CardView
@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="130dp"
         android:layout_marginTop="-30dp"
-        android:backgroundTint="#2196F3"
+        android:backgroundTint="#673AB7"
         android:elevation="20dp"
         app:cardCornerRadius="15sp">
 
@@ -27,7 +27,6 @@
 
             android:layout_marginTop="60dp"
             android:src="@drawable/back" />
-
         <TextView
             android:id="@+id/greetingText"
             android:layout_width="wrap_content"
@@ -35,7 +34,7 @@
             android:layout_gravity="center"
             android:layout_marginStart="0dp"
             android:layout_marginTop="10dp"
-            android:text="Register Doctors"
+            android:text="Register Service Provider"
             android:textColor="#FFFFFF"
             android:textSize="22sp"
             android:textStyle="bold"

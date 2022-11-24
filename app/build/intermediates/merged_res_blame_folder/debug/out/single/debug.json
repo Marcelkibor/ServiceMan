@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\layout\\client_list_details.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\drawable_vet_icon.jpg.flat",
-        "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\drawable\\vet_icon.jpg"
-    },
-    {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\layout_nav_header.xml.flat",
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\drawable_vet_icon.jpg.flat",
+        "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\drawable\\vet_icon.jpg"
     },
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\layout_client_dashboard.xml.flat",
@@ -34,10 +34,6 @@
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\layout_admin_client_details.xml.flat",
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\layout\\admin_client_details.xml"
-    },
-    {
-        "merged": "com.example.petvet.app-merged_res-39:/layout_authenticated_client.xml.flat",
-        "source": "com.example.petvet.app-main-41:/layout/authenticated_client.xml"
     },
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\layout_fragment_vet_profile.xml.flat",
@@ -64,12 +60,16 @@
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\layout\\fragment_add_service.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\layout_botton_sheet.xml.flat",
-        "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\layout\\botton_sheet.xml"
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_search_vet.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_search_vet.xml"
     },
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\layout_client_nav_header.xml.flat",
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\layout\\client_nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\layout_botton_sheet.xml.flat",
+        "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\layout\\botton_sheet.xml"
     },
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\drawable_bell.xml.flat",
@@ -234,10 +234,6 @@
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.petvet.app-merged_res-39:/layout_client_select_service.xml.flat",
-        "source": "com.example.petvet.app-main-41:/layout/client_select_service.xml"
     },
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\layout_client_register_activity.xml.flat",
@@ -438,6 +434,10 @@
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\drawable_sim.jpg.flat",
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\drawable\\sim.jpg"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_vet_register_activity.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/vet_register_activity.xml"
     },
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\drawable_active.xml.flat",

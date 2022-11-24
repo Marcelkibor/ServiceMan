@@ -67,8 +67,8 @@ class ClientSelectServiceActivity : AppCompatActivity() {
 //        println("This is the activity")
         binding = ClientSelectServiceBinding.inflate(layoutInflater)
         val bundle: Bundle? = intent.extras
-        vet_id = bundle?.getString("VetUID").toString()
-        val firstName = bundle?.getString("docFirstName").toString()
+        vet_id = bundle?.getString("serviceManUid").toString()
+        val firstName = bundle?.getString("serviceManFirstName").toString()
         binding.tvDocName.text = firstName
         setContentView(binding.root)
         auth = FirebaseAuth.getInstance()
@@ -181,7 +181,7 @@ class ClientSelectServiceActivity : AppCompatActivity() {
 
     private fun getVetLocation() {
         try {
-            val dbRef = FirebaseDatabase.getInstance().getReference("DoctorLocation")
+            val dbRef = FirebaseDatabase.getInstance().getReference("ServiceManLocation")
             dbRef.addValueEventListener(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     if (snapshot.exists()) {

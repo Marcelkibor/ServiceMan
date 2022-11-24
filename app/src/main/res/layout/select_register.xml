@@ -66,13 +66,13 @@
                 android:layout_height="40dp"
                 android:layout_gravity="left"
                 android:layout_marginStart="10dp"
-                android:src="@drawable/vet" />
+                android:src="@drawable/sv_services" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Vet"
+                android:text="Service Man"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold" />

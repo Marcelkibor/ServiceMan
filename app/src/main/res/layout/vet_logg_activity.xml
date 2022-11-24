@@ -11,7 +11,7 @@
     android:backgroundTint="#DDDDDD"
     android:elevation="20dp"
     app:cardCornerRadius="30sp"
-    tools:context=".VetRegisterActivity">
+    tools:context=".ServiceManRegisterActivity">
 
     <TextView
         android:id="@+id/tvHeader"
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="40dp"
-        android:text="Doctor Login"
+        android:text="Service Provider Login"
         android:textColor="#232121"
         android:textSize="25sp"
         android:textStyle="bold"

@@ -4,9 +4,7 @@ package com.example.petvet.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -34,24 +32,15 @@ public final class FragmentSearchVetBinding implements ViewBinding {
   public final CardView colorFrame;
 
   @NonNull
-  public final EditText edSearchDoctor;
-
-  @NonNull
-  public final ImageView searchIcon;
-
-  @NonNull
   public final TextView tvListStatus;
 
   private FragmentSearchVetBinding(@NonNull DrawerLayout rootView,
       @NonNull FrameLayout FrameIdentifiers, @NonNull RecyclerView clientRecView,
-      @NonNull CardView colorFrame, @NonNull EditText edSearchDoctor, @NonNull ImageView searchIcon,
-      @NonNull TextView tvListStatus) {
+      @NonNull CardView colorFrame, @NonNull TextView tvListStatus) {
     this.rootView = rootView;
     this.FrameIdentifiers = FrameIdentifiers;
     this.clientRecView = clientRecView;
     this.colorFrame = colorFrame;
-    this.edSearchDoctor = edSearchDoctor;
-    this.searchIcon = searchIcon;
     this.tvListStatus = tvListStatus;
   }
 
@@ -100,18 +89,6 @@ public final class FragmentSearchVetBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.edSearchDoctor;
-      EditText edSearchDoctor = ViewBindings.findChildViewById(rootView, id);
-      if (edSearchDoctor == null) {
-        break missingId;
-      }
-
-      id = R.id.search_icon;
-      ImageView searchIcon = ViewBindings.findChildViewById(rootView, id);
-      if (searchIcon == null) {
-        break missingId;
-      }
-
       id = R.id.tvListStatus;
       TextView tvListStatus = ViewBindings.findChildViewById(rootView, id);
       if (tvListStatus == null) {
@@ -119,7 +96,7 @@ public final class FragmentSearchVetBinding implements ViewBinding {
       }
 
       return new FragmentSearchVetBinding((DrawerLayout) rootView, FrameIdentifiers, clientRecView,
-          colorFrame, edSearchDoctor, searchIcon, tvListStatus);
+          colorFrame, tvListStatus);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -38,25 +38,6 @@ class ClientSearchServiceManActivity : AppCompatActivity() {
         tempArray = arrayListOf<VetDoctor>()
         backUpArray = arrayListOf<VetDoctor>()
         fetchDoctorList()
-        binding.edSearchDoctor.addTextChangedListener(object:TextWatcher{
-            @SuppressLint("NotifyDataSetChanged")
-            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-                doctorList.addAll(backUpArray)
-                tempArray.clear()
-                docAdapter.notifyDataSetChanged()
-            }
-
-            override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-            }
-            @SuppressLint("NotifyDataSetChanged")
-            override fun afterTextChanged(editable: Editable?) {
-                if (editable.toString().isEmpty()){
-                    docAdapter.notifyDataSetChanged();
-                }else{
-                    filterRec(editable.toString());
-                }
-            }
-        })
     }
 
    private fun  filterRec(text:String){
@@ -70,7 +51,7 @@ class ClientSearchServiceManActivity : AppCompatActivity() {
 
     private fun fetchDoctorList() {
         try {
-            dbRef = FirebaseDatabase.getInstance().getReference("Doctor")
+            dbRef = FirebaseDatabase.getInstance().getReference("ServiceMan")
             dbRef.addValueEventListener(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     if (snapshot.exists()){
@@ -89,8 +70,8 @@ class ClientSearchServiceManActivity : AppCompatActivity() {
                                 val currentDoctor = doctorList[position]
                                 val docUID = currentDoctor.doctorUid.toString()
                                 val docName = currentDoctor.doctorName
-                                intent.putExtra("VetUID",docUID)
-                                intent.putExtra("docFirstName",docName)
+                                intent.putExtra("serviceManUid",docUID)
+                                intent.putExtra("serviceManFirstName",docName)
                                 startActivity(intent)
                                 finish()
                             }

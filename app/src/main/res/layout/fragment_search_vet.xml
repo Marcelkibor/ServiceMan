@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#F4F0F0"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ClientSearchDoctorActivity">
+    tools:context=".ClientSearchServiceManActivity">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -25,50 +25,24 @@
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="45sp"
                 android:elevation="20dp"
-                app:cardCornerRadius="100dp">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/doc_search" />
-            </androidx.cardview.widget.CardView>
+                app:cardCornerRadius="100dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="55dp"
-                android:text="Search for vet doctor"
+                android:text="Search for Service Provider"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
         </androidx.cardview.widget.CardView>
-        <ImageView
-            android:id="@+id/search_icon"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_below="@id/colorFrame"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="24dp"
-            android:src="@drawable/search">
-        </ImageView>
-        <EditText
-            android:id="@+id/edSearchDoctor"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_below="@+id/colorFrame"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_toEndOf="@+id/search_icon"
-            android:hint="Search doctor"
-            android:textSize="15sp" />
+
         <FrameLayout
             android:layout_width="match_parent"
             android:id="@+id/FrameIdentifiers"
             android:layout_marginTop="10dp"
-            android:layout_below="@id/edSearchDoctor"
+            android:layout_below="@id/colorFrame"
             android:layout_height="50dp">
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -81,7 +55,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Vet Name"
+                    android:text="Name"
                     android:textSize="15sp"
                     android:textStyle="bold"
                     android:layout_marginTop="15dp"
