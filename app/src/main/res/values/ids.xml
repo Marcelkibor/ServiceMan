@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btRegister" type="id" />
+    <item name="edUsername" type="id" />
+    <item name="regEmail" type="id" />
+    <item name="directions" type="id"/>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/drawable/account.xml" value="0.151" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/drawable/add_service.xml" value="0.162" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/drawable/back.xml" value="0.151" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/drawable/delete.xml" value="0.2115" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/drawable/dialog_bg.xml" value="0.12" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/drawable/image.xml" value="0.134" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/drawable/list.xml" value="0.2085" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/drawable/logout.xml" value="0.162" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/drawable/menu.xml" value="0.157" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/drawable/sv_clients.xml" value="0.1445" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/drawable/sv_services.xml" value="0.151" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/accepted_request.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/accepted_request_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/activity_client_change_account.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/activity_maps.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/admin_analytics.xml" value="0.1" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/admin_client_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/admin_doctor_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/admin_edit_doctor_request.xml" value="0.33" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/admin_panel.xml" value="0.25" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/admin_payment_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/admin_service_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/authenticated_client.xml" value="0.1" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/authenticated_vat_activity.xml" value="0.25" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/botton_sheet.xml" value="0.16304347826086957" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/cleared_request_activity.xml" value="0.2" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/client_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/client_edit_account.xml" value="0.33" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/client_list_details.xml" value="0.33" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/client_logg_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/client_payment_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/client_payment_list_details.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/client_register_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/client_request_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/client_requested_service_details.xml" value="0.22" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/client_select_service.xml" value="0.25" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/completePaymentDialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/doctor_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/doctor_list_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/doctor_list_distance.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/edit_service_activity.xml" value="0.25" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_accepted.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_account.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_add_service.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_admin_billings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_admin_clients.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_admin_doctors.xml" value="0.18" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_admin_home.xml" value="0.25" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_admin_orders.xml" value="0.2" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_admin_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_billings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_cleared_request.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_client_home.xml" value="0.25" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_clinic.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_my_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_order.xml" value="0.22" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_rejected.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_request.xml" value="0.12" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_search_vet.xml" value="0.25" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_service_list.xml" value="0.25" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_track_request.xml" value="0.2" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/fragment_vet.xml" value="0.25" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/logg_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/login-activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/map_activity.xml" value="0.18" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/nav_header.xml" value="0.25" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/order_list_details.xml" value="0.33" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/register_activity.xml" value="0.2" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/reject_request.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/select_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/single_cleared_request.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/single_service_details.xml" value="0.33" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/try_image_upload.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/vet_confirmed_orders.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/vet_confirmed_service_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/vet_dashboard.xml" value="0.18" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/vet_edit_request.xml" value="0.25" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/vet_logg_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/layout/vet_register_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/menu/admin_menu.xml" value="0.33" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/menu/client_nav_menu.xml" value="0.22" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/menu/nav_menu.xml" value="0.33" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/menu/payment_menu.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/kibor/AndroidStudioProjects/PetVet/app/src/main/res/menu/search_service.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

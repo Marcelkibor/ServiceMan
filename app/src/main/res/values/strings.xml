@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">PetVet</string>
+    <string name="title_activity_maps">PetVet</string>
+    <string name="location_btext">GET LOCATION</string>
+    <string name="loginHeader">Create New Account</string>
+    <string name="emailText">Enter Email Address</string>
+    <string name="passwordText">Enter Password</string>
+    <string name="btLogin">LOGIN</string>
+    <string name="no_account">Have no Account?</string>
+    <string name="doctor_s_name">Doctor\'s Name</string>
+    <string name="vet_service_providers">Add Service</string>
+    <string name="doctor_email">DoctorEmail</string>
+    <string name="client_register">Client Register</string>
+    <string name="username">Username</string>
+    <string name="add_service">Add Service</string>
+    <string name="category">Category:</string>
+    <string name="age">Age:</string>
+    <string name="service">Service:</string>
+    <string name="detail">Detail:</string>
+    <string name="sex">Sex:</string>
+    <string name="add_request">request</string>
+    <string name="photo">Add photo:</string>
+    <string name="sv_home">Home</string>
+    <string name="sv_services">My services</string>
+    <string name="sv_requests">Requests</string>
+    <string name="sV_my_clients">Clients</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="username_password"><![CDATA[Username & password]]></string>
+    <string name="change_home_address">Change home address</string>
+    <string name="delete_my_account">Delete my account</string>
+    <string name="morning">Good Morning</string>
+    <string name="afternoon">Good Afternoon</string>
+    <string name="evening">Good Evening</string>
+    <string name="night">Good Night</string>
+    <string name="m_pesa">M-Pesa</string>
+    <string name="paypal">PayPal</string>
+    <string name="simulate">Simulate</string>
+    <string name="choose_payment">Choose Payment</string>
+    <string name="list_is_currently_empty">List is currently empty</string>
+    <string-array name="animal_category">
+        <item>Sheep</item>
+        <item>Cow</item>
+        <item>Dog</item>
+        <item>Goat</item>
+        <item>Donkey</item>
+        <item>Camel</item>
+    </string-array>
+</resources>

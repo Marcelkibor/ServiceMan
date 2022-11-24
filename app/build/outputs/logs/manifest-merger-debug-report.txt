@@ -1,0 +1,1020 @@
+-- Merging decision tree log ---
+meta-data#com.google.android.geo.API_KEY
+INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:20:9-22:47
+	android:value
+		INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:22:13-44
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:21:13-58
+manifest
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:2:1-206:12
+INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:2:1-206:12
+INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:2:1-206:12
+INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:2:1-206:12
+MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\Vincent\.gradle\caches\transforms-3\e3a17929de7e98a358d2f9aa889e49e9\transformed\viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\8247b4ea20bddd0302e01b6dcb5ae6cb\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\e086a922c1aa317ad28c6f66fb3e1311\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4b814ed02422775b6e1a7ae86870b9b6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\7bae761217e41054a9fd2677f4bbaa72\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Vincent\.gradle\caches\transforms-3\4462061cf2d1b5c9da5ed099b799cf50\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Vincent\.gradle\caches\transforms-3\2192831a58eeed9387524b82e34b4393\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:3.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\079292150cf3061c77d29adad8e7cdd1\transformed\lottie-3.4.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\0c38880335973fe15a552efcba4819e9\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\ee21fc4f4ca2512ccf1583be7e460c2a\transformed\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:17:1-44:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Vincent\.gradle\caches\transforms-3\71b4ad005fe52750ece23e9ba214d4a2\transformed\glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\2270709172bd1e55e47627a0cdc2172e\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Vincent\.gradle\caches\transforms-3\7d05199f0512e2159c74b742ac415ed2\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\5de793d820447883eb9da21c3daca92e\transformed\firebase-appcheck-interop-16.1.0\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Vincent\.gradle\caches\transforms-3\5152d33b86e61856f221303fd1d14125\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:17:1-73:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Vincent\.gradle\caches\transforms-3\488155524efc60df933e69477fe2ed6d\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\a1020dcb4c2b0b2a5c1c39be86b9122f\transformed\play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\44489ee738af37e3030f21bbfa7f051e\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d5d3407aacaf196688f81bc151d716c\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\8fa5f7579a368146d8db8909bc52df96\transformed\firebase-analytics-21.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\9837e4c1fed89dc0eeba186a6b52cb64\transformed\firebase-installations-interop-17.1.0\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Vincent\.gradle\caches\transforms-3\66f8179f04a73956e4aaef7a8377eab5\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\e0d7df056ecf8b361f421be59752e2f3\transformed\play-services-measurement-sdk-21.2.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\9b7422ce1d322f1679361578eebd0ff1\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\dc95b80f0f92d8be3f16248312838a20\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\699e7e4e74229c9cc39650a28b3d3baf\transformed\play-services-measurement-base-21.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Vincent\.gradle\caches\transforms-3\aa4f227a6f7b007e178197a88b002a82\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\111c554b8b234fa44aef3343d1021db9\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\320ad0926a99c20e5bb8a2eeccb9d18f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Vincent\.gradle\caches\transforms-3\d984f03f36aa55b123e4599c58720448\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\0ac9f9c34ff307553da94cf661cefc37\transformed\activity-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\cebd1c1e15f26cbf7cc93aeace782cbd\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\9aa7f776721b9d87aabfdfd95852fced\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\b5ecf59b197aaf9a722ff6a9f2aee651\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\410107a39f56061a61936169b0a741ea\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\e2094ec56f902eaa0e8c8426e1a7bf14\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.androidplot:androidplot-core:1.5.7] C:\Users\Vincent\.gradle\caches\transforms-3\e477627a36b113e3e9c4a2e4e63e16d4\transformed\androidplot-core-1.5.7\AndroidManifest.xml:21:1-30:12
+MERGED from [com.halfhp.fig:figlib:1.0.11] C:\Users\Vincent\.gradle\caches\transforms-3\ff78636a5a88cd7ea3078aaf985bebb0\transformed\figlib-1.0.11\AndroidManifest.xml:2:1-9:12
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\a79fe897d65360c507e812979967c7e0\transformed\library-1.2.0\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\7cc0356a009298ee760178de321e9816\transformed\MPAndroidChart-v3.1.0\AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Vincent\.gradle\caches\transforms-3\59875437928d7b4f6e55544eedad8b4f\transformed\core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4da39ac3760a80bbba65b080e4f4be61\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\cbf6c7122162541fd67ec25d5be0472e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\9d40401d10a55be0469b58d227ad0720\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3f59b9e9ed91417b8713d45333504d24\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\308154eef0b3d82b7ecaa77c09b38b49\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\95559887d2408c99dec3602d3949f8d9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\8064588344f59c68da776e9034348227\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\4bb02b62084b0e146167a7b857c72c66\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\85c57224072150b765301ebfb5106497\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Vincent\.gradle\caches\transforms-3\01e9a3bbdffb877664b57143e2f6725c\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.8.0] C:\Users\Vincent\.gradle\caches\transforms-3\6c6a9547e090d93be7854064e8551ea7\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\e9e288fb857163aea62a39418f12cc26\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\340f922d34716ad08dbc00795b82318d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\f5bcffa3ee80bff13bab4f5e2986319a\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\968790221ec69aaa146c5c7b7ec4d155\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\451c5b55709a537005882efc4aef59d0\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\Vincent\.gradle\caches\transforms-3\1823e6624a6ea60898c74e5539232d8e\transformed\firebase-components-17.0.1\AndroidManifest.xml:15:1-23:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Vincent\.gradle\caches\transforms-3\e8798d4824304fc64fee0ccb8e8e9ed9\transformed\gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\9821681f09c3e1248a5ad2cfa160471d\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\e1e6769447c0ff8f7cf63ff131e14522\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\df910b7665ff594b6876a720b5ab3bd2\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\87ca57d11de22a694fd66bbd44d7a994\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\7b3d8bd9848ad8bc8bacde81578f66ce\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\9bd07442f5b4425656df3ca6920f1bac\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\5880148c46f834753fd869556ef19788\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\3fd41844d1c30d9c7703e0a4e914a74e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\79ff5d4a2743b11697e24e99d7269180\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\a3e591a4b5c5e4571ce1c0f310838ada\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\7ce0dc72c2a9a8219db815aec243d0f5\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\ef0a266cb7229e726f3455579b9895c6\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:2:1-206:12
+INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:2:1-206:12
+INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:2:1-206:12
+	package
+		INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:2:1-206:12
+		INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:2:1-206:12
+		INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:2:1-206:12
+		INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission-sdk-23#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:5:5-88
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:5:29-85
+uses-permission-sdk-23#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:6:5-86
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:6:29-83
+uses-permission-sdk-23#android.permission.INTERNET
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:7:5-74
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:7:29-71
+uses-permission-sdk-23#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:8:5-92
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:8:29-89
+application
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:10:5-205:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\8247b4ea20bddd0302e01b6dcb5ae6cb\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\8247b4ea20bddd0302e01b6dcb5ae6cb\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\e086a922c1aa317ad28c6f66fb3e1311\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\e086a922c1aa317ad28c6f66fb3e1311\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4b814ed02422775b6e1a7ae86870b9b6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4b814ed02422775b6e1a7ae86870b9b6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\7bae761217e41054a9fd2677f4bbaa72\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\7bae761217e41054a9fd2677f4bbaa72\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Vincent\.gradle\caches\transforms-3\4462061cf2d1b5c9da5ed099b799cf50\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Vincent\.gradle\caches\transforms-3\4462061cf2d1b5c9da5ed099b799cf50\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Vincent\.gradle\caches\transforms-3\2192831a58eeed9387524b82e34b4393\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Vincent\.gradle\caches\transforms-3\2192831a58eeed9387524b82e34b4393\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\079292150cf3061c77d29adad8e7cdd1\transformed\lottie-3.4.1\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\079292150cf3061c77d29adad8e7cdd1\transformed\lottie-3.4.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Vincent\.gradle\caches\transforms-3\71b4ad005fe52750ece23e9ba214d4a2\transformed\glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Vincent\.gradle\caches\transforms-3\71b4ad005fe52750ece23e9ba214d4a2\transformed\glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Vincent\.gradle\caches\transforms-3\7d05199f0512e2159c74b742ac415ed2\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Vincent\.gradle\caches\transforms-3\7d05199f0512e2159c74b742ac415ed2\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\5de793d820447883eb9da21c3daca92e\transformed\firebase-appcheck-interop-16.1.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\5de793d820447883eb9da21c3daca92e\transformed\firebase-appcheck-interop-16.1.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\a1020dcb4c2b0b2a5c1c39be86b9122f\transformed\play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\a1020dcb4c2b0b2a5c1c39be86b9122f\transformed\play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\44489ee738af37e3030f21bbfa7f051e\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\44489ee738af37e3030f21bbfa7f051e\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d5d3407aacaf196688f81bc151d716c\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d5d3407aacaf196688f81bc151d716c\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\8fa5f7579a368146d8db8909bc52df96\transformed\firebase-analytics-21.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\8fa5f7579a368146d8db8909bc52df96\transformed\firebase-analytics-21.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Vincent\.gradle\caches\transforms-3\66f8179f04a73956e4aaef7a8377eab5\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Vincent\.gradle\caches\transforms-3\66f8179f04a73956e4aaef7a8377eab5\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\e0d7df056ecf8b361f421be59752e2f3\transformed\play-services-measurement-sdk-21.2.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\e0d7df056ecf8b361f421be59752e2f3\transformed\play-services-measurement-sdk-21.2.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\9b7422ce1d322f1679361578eebd0ff1\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\9b7422ce1d322f1679361578eebd0ff1\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\699e7e4e74229c9cc39650a28b3d3baf\transformed\play-services-measurement-base-21.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\699e7e4e74229c9cc39650a28b3d3baf\transformed\play-services-measurement-base-21.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Vincent\.gradle\caches\transforms-3\aa4f227a6f7b007e178197a88b002a82\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Vincent\.gradle\caches\transforms-3\aa4f227a6f7b007e178197a88b002a82\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\111c554b8b234fa44aef3343d1021db9\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\111c554b8b234fa44aef3343d1021db9\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\320ad0926a99c20e5bb8a2eeccb9d18f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\320ad0926a99c20e5bb8a2eeccb9d18f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\a79fe897d65360c507e812979967c7e0\transformed\library-1.2.0\AndroidManifest.xml:12:5-20
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\a79fe897d65360c507e812979967c7e0\transformed\library-1.2.0\AndroidManifest.xml:12:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.8.0] C:\Users\Vincent\.gradle\caches\transforms-3\6c6a9547e090d93be7854064e8551ea7\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] C:\Users\Vincent\.gradle\caches\transforms-3\6c6a9547e090d93be7854064e8551ea7\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\340f922d34716ad08dbc00795b82318d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\340f922d34716ad08dbc00795b82318d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Vincent\.gradle\caches\transforms-3\e8798d4824304fc64fee0ccb8e8e9ed9\transformed\gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Vincent\.gradle\caches\transforms-3\e8798d4824304fc64fee0ccb8e8e9ed9\transformed\gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\e1e6769447c0ff8f7cf63ff131e14522\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\e1e6769447c0ff8f7cf63ff131e14522\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\87ca57d11de22a694fd66bbd44d7a994\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\87ca57d11de22a694fd66bbd44d7a994\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] C:\Users\Vincent\.gradle\caches\transforms-3\6c6a9547e090d93be7854064e8551ea7\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:15:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:13:9-54
+	android:roundIcon
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:16:9-47
+	tools:targetApi
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:19:9-29
+	android:icon
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:14:9-42
+	android:allowBackup
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:18:9-44
+	android:dataExtractionRules
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:12:9-65
+activity#com.example.petvet.MapActivity
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:24:9-30:20
+	android:label
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:27:13-56
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:26:13-36
+	tools:ignore
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:28:13-40
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:25:13-39
+activity#com.example.petvet.ClientLoginActivity
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:31:9-35:20
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:32:13-48
+activity#com.example.petvet.VetLoginActivity
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:36:9-38:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:38:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:37:13-45
+activity#com.example.petvet.AuthenticatedClientActivity
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:39:9-43:20
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:40:13-56
+activity#com.example.petvet.ClientRegister
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:44:9-48:20
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:46:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:45:13-43
+activity#com.example.petvet.VetRegisterActivity
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:49:9-53:20
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:51:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:50:13-48
+activity#com.example.petvet.SelectRegister
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:54:9-61:20
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:56:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:55:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:57:13-60:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:58:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:59:17-77
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:59:27-74
+activity#com.example.petvet.AuthenticatedVetActivity
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:62:9-66:20
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:64:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:63:13-53
+activity#com.example.petvet.ClientSelectServiceActivity
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:67:9-71:20
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:69:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:68:13-56
+activity#com.example.petvet.ServiceListActivity
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:72:9-77:20
+	android:parentActivityName
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:75:13-67
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:74:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:73:13-48
+activity#com.example.petvet.EditServiceActivity
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:78:9-80:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:80:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:79:13-48
+activity#com.example.petvet.LocationTest
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:81:9-85:20
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:83:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:82:13-41
+activity#com.example.petvet.VetEditRequest
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:86:9-90:20
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:88:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:87:13-43
+activity#com.example.petvet.ClearedRequestActivity
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:91:9-95:20
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:93:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:92:13-51
+activity#com.example.petvet.ActivityAcceptedRequest
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:96:9-98:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:98:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:97:13-52
+activity#com.example.petvet.ActivityRejectedRequest
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:99:9-101:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:101:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:100:13-52
+activity#com.example.petvet.AdminPanel
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:102:9-105:20
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:104:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:103:13-39
+activity#com.example.petvet.AdminEditDoctors
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:106:9-108:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:108:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:107:13-45
+activity#com.example.petvet.ClientSearchDoctorActivity
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:109:9-111:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:111:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:110:13-55
+activity#com.example.petvet.ClientOrderHistoryActivity
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:112:9-114:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:114:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:113:13-55
+activity#com.example.petvet.ActivityClientPayments
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:115:9-117:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:117:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:116:13-51
+activity#com.example.petvet.ActivityTrackRequest
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:118:9-120:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:120:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:119:13-49
+activity#com.example.petvet.ActivityVetPendingRequests
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:121:9-123:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:123:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:122:13-54
+activity#com.example.petvet.ActivityVetServiceList
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:124:9-126:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:126:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:125:13-50
+activity#com.example.petvet.ActivityVetAddService
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:127:9-129:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:129:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:128:13-50
+activity#com.example.petvet.ActivityDoctorConfirmedOrders
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:130:9-132:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:132:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:131:13-57
+activity#com.example.petvet.VetConfirmedRequest
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:133:9-57
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:133:19-54
+activity#com.example.petvet.ActivityClientPayDetails
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:134:9-136:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:136:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:135:13-53
+activity#com.example.petvet.ActivityClientRequestedService
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:137:9-139:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:139:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:138:13-58
+activity#com.example.petvet.ActivityClientEditAccount
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:140:9-144:20
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:142:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:141:13-53
+activity#com.example.petvet.ActivityClientChangeAccount
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:145:9-147:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:147:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:146:13-55
+activity#com.example.petvet.ActivityAdminDoctors
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:148:9-150:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:150:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:149:13-48
+activity#com.example.petvet.ActivityAdminClients
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:151:9-153:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:153:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:152:13-49
+activity#com.example.petvet.ActivityAdminRequests
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:154:9-156:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:156:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:155:13-50
+activity#com.example.petvet.AdminPayments
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:157:9-159:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:159:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:158:13-41
+activity#com.example.petvet.ActivityAdminPayDetails
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:160:9-162:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:162:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:161:13-51
+activity#com.example.petvet.ActivityAdminServices
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:163:9-165:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:165:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:164:13-50
+activity#com.example.petvet.ActivityAdminAnalytics
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:166:9-168:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:168:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:167:13-50
+activity#com.example.petvet.ActivityTestImage
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:169:9-173:20
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:171:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:170:13-45
+activity#com.example.petvet.ActivityAdminPayments
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:174:9-176:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:176:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:175:13-50
+activity#com.example.petvet.ActivityAdminClientDetails
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:177:9-179:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:179:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:178:13-55
+activity#com.example.petvet.ActivityAdminDoctorDetails
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:180:9-182:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:182:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:181:13-55
+activity#com.example.petvet.VetPaymentShares
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:183:9-185:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:185:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:184:13-45
+activity#com.example.petvet.ActivityBusinessSharesDetails
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:186:9-188:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:188:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:187:13-58
+activity#com.example.petvet.ActivityVetSharesDetails
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:189:9-191:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:191:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:190:13-53
+activity#com.example.petvet.ActivityBusinessPayShares
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:192:9-194:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:194:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:193:13-54
+activity#com.example.petvet.ActivityClientTrack
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:195:9-197:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:197:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:196:13-48
+activity#com.example.petvet.AdminLogin
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:198:9-200:39
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:200:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:199:13-39
+activity#com.example.petvet.ActivityVetEditAccount
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:201:9-202:38
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:202:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:201:19-57
+activity#com.example.petvet.ActivityVetChangeAccount
+ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:203:9-204:38
+	android:exported
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:204:13-36
+	android:name
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:203:19-59
+uses-sdk
+INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\Vincent\.gradle\caches\transforms-3\e3a17929de7e98a358d2f9aa889e49e9\transformed\viewbinding-7.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\Vincent\.gradle\caches\transforms-3\e3a17929de7e98a358d2f9aa889e49e9\transformed\viewbinding-7.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\8247b4ea20bddd0302e01b6dcb5ae6cb\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\8247b4ea20bddd0302e01b6dcb5ae6cb\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\e086a922c1aa317ad28c6f66fb3e1311\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\e086a922c1aa317ad28c6f66fb3e1311\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4b814ed02422775b6e1a7ae86870b9b6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4b814ed02422775b6e1a7ae86870b9b6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\7bae761217e41054a9fd2677f4bbaa72\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\7bae761217e41054a9fd2677f4bbaa72\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Vincent\.gradle\caches\transforms-3\4462061cf2d1b5c9da5ed099b799cf50\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Vincent\.gradle\caches\transforms-3\4462061cf2d1b5c9da5ed099b799cf50\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Vincent\.gradle\caches\transforms-3\2192831a58eeed9387524b82e34b4393\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Vincent\.gradle\caches\transforms-3\2192831a58eeed9387524b82e34b4393\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\079292150cf3061c77d29adad8e7cdd1\transformed\lottie-3.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\079292150cf3061c77d29adad8e7cdd1\transformed\lottie-3.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\0c38880335973fe15a552efcba4819e9\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\0c38880335973fe15a552efcba4819e9\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\ee21fc4f4ca2512ccf1583be7e460c2a\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\ee21fc4f4ca2512ccf1583be7e460c2a\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Vincent\.gradle\caches\transforms-3\71b4ad005fe52750ece23e9ba214d4a2\transformed\glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Vincent\.gradle\caches\transforms-3\71b4ad005fe52750ece23e9ba214d4a2\transformed\glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\2270709172bd1e55e47627a0cdc2172e\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\2270709172bd1e55e47627a0cdc2172e\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Vincent\.gradle\caches\transforms-3\7d05199f0512e2159c74b742ac415ed2\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Vincent\.gradle\caches\transforms-3\7d05199f0512e2159c74b742ac415ed2\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\5de793d820447883eb9da21c3daca92e\transformed\firebase-appcheck-interop-16.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\5de793d820447883eb9da21c3daca92e\transformed\firebase-appcheck-interop-16.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Vincent\.gradle\caches\transforms-3\5152d33b86e61856f221303fd1d14125\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Vincent\.gradle\caches\transforms-3\5152d33b86e61856f221303fd1d14125\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Vincent\.gradle\caches\transforms-3\488155524efc60df933e69477fe2ed6d\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Vincent\.gradle\caches\transforms-3\488155524efc60df933e69477fe2ed6d\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\a1020dcb4c2b0b2a5c1c39be86b9122f\transformed\play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\a1020dcb4c2b0b2a5c1c39be86b9122f\transformed\play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\44489ee738af37e3030f21bbfa7f051e\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\44489ee738af37e3030f21bbfa7f051e\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d5d3407aacaf196688f81bc151d716c\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d5d3407aacaf196688f81bc151d716c\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\8fa5f7579a368146d8db8909bc52df96\transformed\firebase-analytics-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\8fa5f7579a368146d8db8909bc52df96\transformed\firebase-analytics-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\9837e4c1fed89dc0eeba186a6b52cb64\transformed\firebase-installations-interop-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\9837e4c1fed89dc0eeba186a6b52cb64\transformed\firebase-installations-interop-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Vincent\.gradle\caches\transforms-3\66f8179f04a73956e4aaef7a8377eab5\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Vincent\.gradle\caches\transforms-3\66f8179f04a73956e4aaef7a8377eab5\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\e0d7df056ecf8b361f421be59752e2f3\transformed\play-services-measurement-sdk-21.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\e0d7df056ecf8b361f421be59752e2f3\transformed\play-services-measurement-sdk-21.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\9b7422ce1d322f1679361578eebd0ff1\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\9b7422ce1d322f1679361578eebd0ff1\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\dc95b80f0f92d8be3f16248312838a20\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\dc95b80f0f92d8be3f16248312838a20\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\699e7e4e74229c9cc39650a28b3d3baf\transformed\play-services-measurement-base-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\699e7e4e74229c9cc39650a28b3d3baf\transformed\play-services-measurement-base-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Vincent\.gradle\caches\transforms-3\aa4f227a6f7b007e178197a88b002a82\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Vincent\.gradle\caches\transforms-3\aa4f227a6f7b007e178197a88b002a82\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\111c554b8b234fa44aef3343d1021db9\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\111c554b8b234fa44aef3343d1021db9\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\320ad0926a99c20e5bb8a2eeccb9d18f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\320ad0926a99c20e5bb8a2eeccb9d18f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Vincent\.gradle\caches\transforms-3\d984f03f36aa55b123e4599c58720448\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Vincent\.gradle\caches\transforms-3\d984f03f36aa55b123e4599c58720448\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\0ac9f9c34ff307553da94cf661cefc37\transformed\activity-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\0ac9f9c34ff307553da94cf661cefc37\transformed\activity-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\cebd1c1e15f26cbf7cc93aeace782cbd\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\cebd1c1e15f26cbf7cc93aeace782cbd\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\9aa7f776721b9d87aabfdfd95852fced\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\9aa7f776721b9d87aabfdfd95852fced\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\b5ecf59b197aaf9a722ff6a9f2aee651\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\b5ecf59b197aaf9a722ff6a9f2aee651\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\410107a39f56061a61936169b0a741ea\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\410107a39f56061a61936169b0a741ea\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\e2094ec56f902eaa0e8c8426e1a7bf14\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\e2094ec56f902eaa0e8c8426e1a7bf14\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.androidplot:androidplot-core:1.5.7] C:\Users\Vincent\.gradle\caches\transforms-3\e477627a36b113e3e9c4a2e4e63e16d4\transformed\androidplot-core-1.5.7\AndroidManifest.xml:26:5-28:41
+MERGED from [com.androidplot:androidplot-core:1.5.7] C:\Users\Vincent\.gradle\caches\transforms-3\e477627a36b113e3e9c4a2e4e63e16d4\transformed\androidplot-core-1.5.7\AndroidManifest.xml:26:5-28:41
+MERGED from [com.halfhp.fig:figlib:1.0.11] C:\Users\Vincent\.gradle\caches\transforms-3\ff78636a5a88cd7ea3078aaf985bebb0\transformed\figlib-1.0.11\AndroidManifest.xml:5:5-7:41
+MERGED from [com.halfhp.fig:figlib:1.0.11] C:\Users\Vincent\.gradle\caches\transforms-3\ff78636a5a88cd7ea3078aaf985bebb0\transformed\figlib-1.0.11\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\a79fe897d65360c507e812979967c7e0\transformed\library-1.2.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\a79fe897d65360c507e812979967c7e0\transformed\library-1.2.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\7cc0356a009298ee760178de321e9816\transformed\MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\7cc0356a009298ee760178de321e9816\transformed\MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Vincent\.gradle\caches\transforms-3\59875437928d7b4f6e55544eedad8b4f\transformed\core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Vincent\.gradle\caches\transforms-3\59875437928d7b4f6e55544eedad8b4f\transformed\core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4da39ac3760a80bbba65b080e4f4be61\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4da39ac3760a80bbba65b080e4f4be61\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\cbf6c7122162541fd67ec25d5be0472e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\cbf6c7122162541fd67ec25d5be0472e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\9d40401d10a55be0469b58d227ad0720\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\9d40401d10a55be0469b58d227ad0720\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3f59b9e9ed91417b8713d45333504d24\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3f59b9e9ed91417b8713d45333504d24\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\308154eef0b3d82b7ecaa77c09b38b49\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\308154eef0b3d82b7ecaa77c09b38b49\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\95559887d2408c99dec3602d3949f8d9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\95559887d2408c99dec3602d3949f8d9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\8064588344f59c68da776e9034348227\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\8064588344f59c68da776e9034348227\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\4bb02b62084b0e146167a7b857c72c66\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\4bb02b62084b0e146167a7b857c72c66\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\85c57224072150b765301ebfb5106497\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\85c57224072150b765301ebfb5106497\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Vincent\.gradle\caches\transforms-3\01e9a3bbdffb877664b57143e2f6725c\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\Vincent\.gradle\caches\transforms-3\01e9a3bbdffb877664b57143e2f6725c\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\Vincent\.gradle\caches\transforms-3\6c6a9547e090d93be7854064e8551ea7\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\Vincent\.gradle\caches\transforms-3\6c6a9547e090d93be7854064e8551ea7\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\e9e288fb857163aea62a39418f12cc26\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\e9e288fb857163aea62a39418f12cc26\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\340f922d34716ad08dbc00795b82318d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\340f922d34716ad08dbc00795b82318d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\f5bcffa3ee80bff13bab4f5e2986319a\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\f5bcffa3ee80bff13bab4f5e2986319a\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\968790221ec69aaa146c5c7b7ec4d155\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\968790221ec69aaa146c5c7b7ec4d155\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\451c5b55709a537005882efc4aef59d0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\451c5b55709a537005882efc4aef59d0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\Vincent\.gradle\caches\transforms-3\1823e6624a6ea60898c74e5539232d8e\transformed\firebase-components-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\Vincent\.gradle\caches\transforms-3\1823e6624a6ea60898c74e5539232d8e\transformed\firebase-components-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Vincent\.gradle\caches\transforms-3\e8798d4824304fc64fee0ccb8e8e9ed9\transformed\gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Vincent\.gradle\caches\transforms-3\e8798d4824304fc64fee0ccb8e8e9ed9\transformed\gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\9821681f09c3e1248a5ad2cfa160471d\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\9821681f09c3e1248a5ad2cfa160471d\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\e1e6769447c0ff8f7cf63ff131e14522\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\e1e6769447c0ff8f7cf63ff131e14522\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\df910b7665ff594b6876a720b5ab3bd2\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\df910b7665ff594b6876a720b5ab3bd2\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\87ca57d11de22a694fd66bbd44d7a994\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\87ca57d11de22a694fd66bbd44d7a994\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\7b3d8bd9848ad8bc8bacde81578f66ce\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\7b3d8bd9848ad8bc8bacde81578f66ce\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\9bd07442f5b4425656df3ca6920f1bac\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Vincent\.gradle\caches\transforms-3\9bd07442f5b4425656df3ca6920f1bac\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\5880148c46f834753fd869556ef19788\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\5880148c46f834753fd869556ef19788\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\3fd41844d1c30d9c7703e0a4e914a74e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\3fd41844d1c30d9c7703e0a4e914a74e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\79ff5d4a2743b11697e24e99d7269180\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\79ff5d4a2743b11697e24e99d7269180\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\a3e591a4b5c5e4571ce1c0f310838ada\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\a3e591a4b5c5e4571ce1c0f310838ada\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\7ce0dc72c2a9a8219db815aec243d0f5\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\7ce0dc72c2a9a8219db815aec243d0f5\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\ef0a266cb7229e726f3455579b9895c6\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\ef0a266cb7229e726f3455579b9895c6\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\8247b4ea20bddd0302e01b6dcb5ae6cb\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\8247b4ea20bddd0302e01b6dcb5ae6cb\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\e086a922c1aa317ad28c6f66fb3e1311\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\e086a922c1aa317ad28c6f66fb3e1311\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4b814ed02422775b6e1a7ae86870b9b6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4b814ed02422775b6e1a7ae86870b9b6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\7bae761217e41054a9fd2677f4bbaa72\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\7bae761217e41054a9fd2677f4bbaa72\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:13:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:12:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:15:17-124
+meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\8247b4ea20bddd0302e01b6dcb5ae6cb\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\8247b4ea20bddd0302e01b6dcb5ae6cb\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\8247b4ea20bddd0302e01b6dcb5ae6cb\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:15:17-122
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\e086a922c1aa317ad28c6f66fb3e1311\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\e086a922c1aa317ad28c6f66fb3e1311\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\e086a922c1aa317ad28c6f66fb3e1311\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:12:17-116
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4b814ed02422775b6e1a7ae86870b9b6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4b814ed02422775b6e1a7ae86870b9b6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4b814ed02422775b6e1a7ae86870b9b6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\7bae761217e41054a9fd2677f4bbaa72\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\7bae761217e41054a9fd2677f4bbaa72\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\7bae761217e41054a9fd2677f4bbaa72\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\dc95b80f0f92d8be3f16248312838a20\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\dc95b80f0f92d8be3f16248312838a20\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\dc95b80f0f92d8be3f16248312838a20\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\dc95b80f0f92d8be3f16248312838a20\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\44489ee738af37e3030f21bbfa7f051e\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\44489ee738af37e3030f21bbfa7f051e\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\44489ee738af37e3030f21bbfa7f051e\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\44489ee738af37e3030f21bbfa7f051e\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\dc95b80f0f92d8be3f16248312838a20\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\dc95b80f0f92d8be3f16248312838a20\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\9b7422ce1d322f1679361578eebd0ff1\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Vincent\.gradle\caches\transforms-3\9b7422ce1d322f1679361578eebd0ff1\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\dc95b80f0f92d8be3f16248312838a20\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\dc95b80f0f92d8be3f16248312838a20\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5715c863a8c6b259ef0849e5a0a7b724\transformed\play-services-measurement-impl-21.2.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\320ad0926a99c20e5bb8a2eeccb9d18f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\320ad0926a99c20e5bb8a2eeccb9d18f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\320ad0926a99c20e5bb8a2eeccb9d18f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\340f922d34716ad08dbc00795b82318d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\340f922d34716ad08dbc00795b82318d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\e1e6769447c0ff8f7cf63ff131e14522\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Vincent\.gradle\caches\transforms-3\e1e6769447c0ff8f7cf63ff131e14522\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\340f922d34716ad08dbc00795b82318d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\340f922d34716ad08dbc00795b82318d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\340f922d34716ad08dbc00795b82318d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78

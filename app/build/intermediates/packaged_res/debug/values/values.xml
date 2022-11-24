@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animal_category">
+        <item>Sheep</item>
+        <item>Cow</item>
+        <item>Dog</item>
+        <item>Goat</item>
+        <item>Donkey</item>
+        <item>Camel</item>
+    </string-array>
+    <color name="black">#9C27B0</color>
+    <color name="purple">#131419</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <item name="btRegister" type="id"/>
+    <item name="directions" type="id"/>
+    <item name="edUsername" type="id"/>
+    <item name="regEmail" type="id"/>
+    <string name="add_request">request</string>
+    <string name="add_service">Add Service</string>
+    <string name="afternoon">Good Afternoon</string>
+    <string name="age">Age:</string>
+    <string name="app_name">PetVet</string>
+    <string name="btLogin">LOGIN</string>
+    <string name="category">Category:</string>
+    <string name="change_home_address">Change home address</string>
+    <string name="choose_payment">Choose Payment</string>
+    <string name="client_register">Client Register</string>
+    <string name="close">close</string>
+    <string name="default_web_client_id" translatable="false">470264577921-bg7bbcc235ohu55sa5sdqk1gvicenkgt.apps.googleusercontent.com</string>
+    <string name="delete_my_account">Delete my account</string>
+    <string name="detail">Detail:</string>
+    <string name="doctor_email">DoctorEmail</string>
+    <string name="doctor_s_name">Doctor\'s Name</string>
+    <string name="emailText">Enter Email Address</string>
+    <string name="evening">Good Evening</string>
+    <string name="gcm_defaultSenderId" translatable="false">470264577921</string>
+    <string name="google_api_key" translatable="false">AIzaSyApVw3GcAgjmz-IEvpIAdg37aLTxNxMERk</string>
+    <string name="google_app_id" translatable="false">1:470264577921:android:29f9f268e35418c2e87280</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyApVw3GcAgjmz-IEvpIAdg37aLTxNxMERk</string>
+    <string name="google_storage_bucket" translatable="false">flashservices-369522.appspot.com</string>
+    <string name="list_is_currently_empty">List is currently empty</string>
+    <string name="location_btext">GET LOCATION</string>
+    <string name="loginHeader">Create New Account</string>
+    <string name="m_pesa">M-Pesa</string>
+    <string name="morning">Good Morning</string>
+    <string name="night">Good Night</string>
+    <string name="no_account">Have no Account?</string>
+    <string name="open">open</string>
+    <string name="passwordText">Enter Password</string>
+    <string name="paypal">PayPal</string>
+    <string name="photo">Add photo:</string>
+    <string name="project_id" translatable="false">flashservices-369522</string>
+    <string name="sV_my_clients">Clients</string>
+    <string name="service">Service:</string>
+    <string name="sex">Sex:</string>
+    <string name="simulate">Simulate</string>
+    <string name="sv_home">Home</string>
+    <string name="sv_requests">Requests</string>
+    <string name="sv_services">My services</string>
+    <string name="title_activity_maps">PetVet</string>
+    <string name="username">Username</string>
+    <string name="username_password"><![CDATA[Username & password]]></string>
+    <string name="vet_service_providers">Add Service</string>
+    <style name="PaymentDialog">
+        <item name="android:windowEnterAnimation">@anim/slide_in_pay</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_pay</item>
+    </style>
+    <style name="Theme.PetVet" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">#9C27B0</item>
+        
+        <item name="android:statusBarColor">@color/purple</item>
+        
+    </style>
+</resources>

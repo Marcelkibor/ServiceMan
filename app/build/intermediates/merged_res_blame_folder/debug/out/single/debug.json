@@ -1,0 +1,538 @@
+[
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_shares.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/shares.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_search.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/search.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.petvet.app-main-41:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_home.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_cleared_request_activity.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/cleared_request_activity.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_app_icon.png.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/app_icon.png"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_photo.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/photo.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_authenticated_vat_activity.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/authenticated_vat_activity.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_user.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/user.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_admin_doctors.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_admin_doctors.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_client_register_activity.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/client_register_activity.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_try_image_upload.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/try_image_upload.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_client_payment_list_details.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/client_payment_list_details.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_paypal.png.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/paypal.png"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_admin_nav_header.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/admin_nav_header.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_authenticated_client.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/authenticated_client.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_reject_request.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/reject_request.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_camera.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/camera.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/menu_client_nav_menu.xml.flat",
+        "source": "com.example.petvet.app-main-41:/menu/client_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_admin_panel.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/admin_panel.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_search_vet.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_search_vet.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_add.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/add.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_doc.png.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/doc.png"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/menu_search_service.xml.flat",
+        "source": "com.example.petvet.app-main-41:/menu/search_service.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_map_activity.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/map_activity.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_order_list_details.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/order_list_details.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_pending.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/pending.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_sv_clients.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/sv_clients.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_accepted.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_accepted.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_sv_request.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/sv_request.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_single_service_details.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/single_service_details.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_vet_confirmed_service_details.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/vet_confirmed_service_details.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_re_accept.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/re_accept.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_botton_sheet.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/botton_sheet.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_dialog_bg.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/dialog_bg.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_vet_dashboard.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/vet_dashboard.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_request.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/request.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_add_service.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/add_service.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_account.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_account.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_bill.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/bill.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_account.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/account.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_client_requested_service_details.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/client_requested_service_details.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_vet_logg_activity.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/vet_logg_activity.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/menu_admin_menu.xml.flat",
+        "source": "com.example.petvet.app-main-41:/menu/admin_menu.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_sv_services.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/sv_services.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_client_home.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_client_home.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_admin_orders.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_admin_orders.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petvet.app-main-41:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_admin_edit_doctor_request.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/admin_edit_doctor_request.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_rejected.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_rejected.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_client_request_details.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/client_request_details.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_client_edit_account.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/client_edit_account.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/raw_payment.json.flat",
+        "source": "com.example.petvet.app-main-41:/raw/payment.json"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_vet.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/vet.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_client_dashboard.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/client_dashboard.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_client_select_service.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/client_select_service.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_bell.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/bell.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_accepted_request.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/accepted_request.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_accepted_request_details.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/accepted_request_details.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_billings.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_billings.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petvet.app-main-41:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_vet_icon.jpg.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/vet_icon.jpg"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_admin_analytics.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/admin_analytics.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petvet.app-main-41:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.petvet.app-main-41:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_client_logg_activity.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/client_logg_activity.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_active.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/active.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.petvet.app-main-41:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_home.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/home.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_admin_billings.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_admin_billings.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_mpesa.png.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/mpesa.png"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.petvet.app-main-41:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_list.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/list.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_admin_logg_activity.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/admin_logg_activity.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_admin_register.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_admin_register.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petvet.app-main-41:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_track.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/track.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.petvet.app-main-41:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_home1.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/home1.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_request.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_request.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_see.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/see.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/menu_payment_menu.xml.flat",
+        "source": "com.example.petvet.app-main-41:/menu/payment_menu.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_back.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/back.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_doc_search.jpg.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/doc_search.jpg"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_select_register.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/select_register.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_report.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/report.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/anim_slide_in_pay.xml.flat",
+        "source": "com.example.petvet.app-main-41:/anim/slide_in_pay.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_vet_nav_header.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/vet_nav_header.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_custom_dialog.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_book.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/book.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_heal.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/heal.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_vet_confirmed_orders.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/vet_confirmed_orders.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_image.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/image.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_menu.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/menu.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_admin_doctor_details.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/admin_doctor_details.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_order.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_order.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_add_service.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_add_service.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_admin_clients.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_admin_clients.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_admin.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/admin.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_pin.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/pin.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/anim_slide_out_pay.xml.flat",
+        "source": "com.example.petvet.app-main-41:/anim/slide_out_pay.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_sim.jpg.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/sim.jpg"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_vet_register_activity.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/vet_register_activity.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_client_payment_details.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/client_payment_details.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petvet.app-main-41:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.petvet.app-main-41:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_single_cleared_request.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/single_cleared_request.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_track_request.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_track_request.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.petvet.app-main-41:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_clinic.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/clinic.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_vet_profile.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_vet_profile.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/xml_backup_rules.xml.flat",
+        "source": "com.example.petvet.app-main-41:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_edit_service_activity.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/edit_service_activity.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_delete.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/delete.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_activity_client_change_account.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/activity_client_change_account.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_admin_client_details.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/admin_client_details.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_client_nav_header.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/client_nav_header.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_vet_edit_request.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/vet_edit_request.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_admin_home.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_admin_home.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_drive.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/drive.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_search_doctor_24.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/search_doctor_24.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_settings.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/settings.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_client_list_details.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/client_list_details.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/menu_nav_menu.xml.flat",
+        "source": "com.example.petvet.app-main-41:/menu/nav_menu.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_vet_shares.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_vet_shares.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_edit.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/edit.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_doctor_list_distance.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/doctor_list_distance.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.petvet.app-main-41:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_doctor_list_details.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/doctor_list_details.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/drawable_logout.xml.flat",
+        "source": "com.example.petvet.app-main-41:/drawable/logout.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_nav_header.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/nav_header.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_service_list.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_service_list.xml"
+    }
+]

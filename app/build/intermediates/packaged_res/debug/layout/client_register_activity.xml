@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEDFE4"
+    tools:context=".ClientRegister"
+    tools:ignore="MissingDefaultResource">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="-10dp"
+        android:elevation="20dp"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Create Account"
+            android:textColor="#090707"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edClientFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginEnd="20dp"
+            android:hint="First Name"
+            android:textColorHint="#000000"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/edClientLastName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Last Name"
+            android:textColorHint="#000000"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/edClientEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="310dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#050505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edClientFirstName"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/edClientPhone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textColorHint="#050505" />
+
+        <EditText
+            android:id="@+id/edClientPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edClientEmail"
+            tools:ignore="Autofill,HardcodedText" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="520dp"
+            android:backgroundTint="#FF5722"
+            android:text="create account"
+            android:textColor="#E8E4E8"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edClientPassword"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tvAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="590dp"
+            android:text="Or Login"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.cardview.widget.CardView>

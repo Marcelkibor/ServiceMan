@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PetVet" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorOnPrimary">#9C27B0</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/purple</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/purple</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

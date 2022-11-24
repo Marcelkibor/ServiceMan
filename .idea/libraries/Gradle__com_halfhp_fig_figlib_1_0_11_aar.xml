@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.halfhp.fig:figlib:1.0.11@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ff78636a5a88cd7ea3078aaf985bebb0/transformed/figlib-1.0.11/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ff78636a5a88cd7ea3078aaf985bebb0/transformed/figlib-1.0.11/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

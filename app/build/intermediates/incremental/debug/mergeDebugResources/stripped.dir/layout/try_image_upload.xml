@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+tools:openDrawer="start"
+tools:context=".ActivityTestImage"
+xmlns:tools="http://schemas.android.com/tools"
+>
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/testImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/image" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#9C27B0"
+        android:text="Submit"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

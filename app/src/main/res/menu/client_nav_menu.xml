@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Home"
+        android:icon="@drawable/home"
+        android:id="@+id/client_home"></item>
+<item
+android:id="@+id/client_search"
+android:icon="@drawable/search"
+android:title="Search doctor"/>
+<item
+android:id="@+id/client_orders"
+android:title="My Orders"
+android:icon="@drawable/track"/>
+<item
+android:title="Service">
+<menu>
+</menu>
+</item>
+<item
+android:title="Profile">
+<menu>
+<item
+android:title="My account"
+    android:id="@+id/client_account"
+android:icon="@drawable/account"
+/>
+<item
+android:title="Log out"
+    android:id="@+id/client_logout"
+android:icon="@drawable/logout"/>
+</menu>
+</item>
+,</menu>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3DDDD"
+    android:fitsSystemWindows="true"
+    tools:context=".VetEditRequest"
+    tools:openDrawer="start">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardHeaders"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="-20dp"
+            android:backgroundTint="#3F51B5"
+            android:elevation="20dp"
+            app:cardCornerRadius="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/backArrow"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="55dp"
+                android:src="@drawable/back"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/drawer_home"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/bell"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/greetingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="62dp"
+                android:text="Active Request"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCategories"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@id/cardHeaders"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="15sp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/tvClientDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardHeaders"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="20dp"
+                android:text="Client Name"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvClientDescLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardHeaders"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Client Name:"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvServiceRequest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvClientDesc"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="100dp"
+                android:text="Requested Service"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvServiceRequestDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvClientDesc"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="100dp"
+                android:text="Requested Service:"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvAnimalCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvServiceRequest"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="60dp"
+                android:text="Animal Category"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvAnimalCategoryDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvServiceRequest"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="60dp"
+                android:text="Animal Category:"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvRequestedTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvAnimalCategory"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="140dp"
+                android:text="Requested time"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvRequestedTimeDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvAnimalCategory"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="140dp"
+                android:text="Requested time:"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardRadio"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@id/cardCategories"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="15sp"
+            app:cardCornerRadius="15sp">
+<ImageView
+    android:layout_width="250dp"
+    android:layout_height="200dp"
+    android:id="@+id/servPhoto"
+    android:background="#CDCBCD"
+    android:layout_gravity="right"/>
+            <TextView
+                android:id="@+id/tvHeaderSelect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardCategories"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Select action"
+                android:textColor="@color/purple"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvHeaderSelect"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="65dp">
+
+                <RadioButton
+                    android:id="@+id/radioBtn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Accept"
+                    tools:ignore="HardcodedText" />
+
+                <RadioButton
+                    android:id="@+id/radioBtn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reject"
+                    tools:ignore="HardcodedText" />
+            </RadioGroup>
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:layout_below="@+id/cardRadio"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FF5722"
+            android:text="Submit"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

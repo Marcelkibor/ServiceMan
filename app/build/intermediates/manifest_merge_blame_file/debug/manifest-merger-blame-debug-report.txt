@@ -1,0 +1,642 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.petvet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:5:5-88
+11-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:5:29-85
+12    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:6:5-86
+12-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:6:29-83
+13    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+13-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:7:5-74
+13-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:7:29-71
+14    <uses-permission-sdk-23 android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+14-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:8:5-92
+14-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:8:29-89
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
+29-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
+30    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+30-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+30-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+31-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+32
+33    <application
+33-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:10:5-205:19
+34        android:allowBackup="true"
+34-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:11:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.8.0] C:\Users\Vincent\.gradle\caches\transforms-3\6c6a9547e090d93be7854064e8551ea7\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:12:9-65
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:13:9-54
+40        android:icon="@drawable/app_icon"
+40-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:14:9-42
+41        android:label="@string/app_name"
+41-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:15:9-41
+42        android:roundIcon="@drawable/app_icon"
+42-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:16:9-47
+43        android:supportsRtl="true"
+43-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:17:9-35
+44        android:testOnly="true"
+45        android:theme="@style/Theme.PetVet" >
+45-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:18:9-44
+46        <meta-data
+47            android:name="com.google.android.geo.API_KEY"
+47-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:21:13-58
+48            android:value="AIzaSyAP-TDjRArpxyRhpZdpOok0s3zM2nf2YdE" />
+48-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:22:13-44
+49
+50        <activity
+50-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:24:9-30:20
+51            android:name="com.example.petvet.MapActivity"
+51-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:25:13-39
+52            android:exported="true"
+52-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:26:13-36
+53            android:label="@string/title_activity_maps" >
+53-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:27:13-56
+54        </activity>
+55        <activity
+55-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:31:9-35:20
+56            android:name="com.example.petvet.ClientLoginActivity"
+56-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:32:13-48
+57            android:exported="true" >
+57-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:33:13-36
+58        </activity>
+59        <activity
+59-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:36:9-38:39
+60            android:name="com.example.petvet.VetLoginActivity"
+60-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:37:13-45
+61            android:exported="true" />
+61-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:38:13-36
+62        <activity
+62-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:39:9-43:20
+63            android:name="com.example.petvet.AuthenticatedClientActivity"
+63-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:40:13-56
+64            android:exported="true" >
+64-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:41:13-36
+65        </activity>
+66        <activity
+66-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:44:9-48:20
+67            android:name="com.example.petvet.ClientRegister"
+67-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:45:13-43
+68            android:exported="true" >
+68-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:46:13-36
+69        </activity>
+70        <activity
+70-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:49:9-53:20
+71            android:name="com.example.petvet.VetRegisterActivity"
+71-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:50:13-48
+72            android:exported="true" >
+72-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:51:13-36
+73        </activity>
+74        <activity
+74-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:54:9-61:20
+75            android:name="com.example.petvet.SelectRegister"
+75-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:55:13-43
+76            android:exported="true" >
+76-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:56:13-36
+77            <intent-filter>
+77-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:57:13-60:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:58:17-69
+78-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:58:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:59:17-77
+80-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:59:27-74
+81            </intent-filter>
+82        </activity>
+83        <activity
+83-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:62:9-66:20
+84            android:name="com.example.petvet.AuthenticatedVetActivity"
+84-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:63:13-53
+85            android:exported="true" >
+85-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:64:13-36
+86        </activity>
+87        <activity
+87-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:67:9-71:20
+88            android:name="com.example.petvet.ClientSelectServiceActivity"
+88-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:68:13-56
+89            android:exported="true" >
+89-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:69:13-36
+90        </activity>
+91        <activity
+91-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:72:9-77:20
+92            android:name="com.example.petvet.ServiceListActivity"
+92-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:73:13-48
+93            android:exported="true"
+93-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:74:13-36
+94            android:parentActivityName="com.example.petvet.AuthenticatedVetActivity" >
+94-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:75:13-67
+95        </activity>
+96        <activity
+96-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:78:9-80:39
+97            android:name="com.example.petvet.EditServiceActivity"
+97-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:79:13-48
+98            android:exported="true" />
+98-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:80:13-36
+99        <activity
+99-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:81:9-85:20
+100            android:name="com.example.petvet.LocationTest"
+100-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:82:13-41
+101            android:exported="true" >
+101-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:83:13-36
+102        </activity>
+103        <activity
+103-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:86:9-90:20
+104            android:name="com.example.petvet.VetEditRequest"
+104-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:87:13-43
+105            android:exported="true" >
+105-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:88:13-36
+106        </activity>
+107        <activity
+107-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:91:9-95:20
+108            android:name="com.example.petvet.ClearedRequestActivity"
+108-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:92:13-51
+109            android:exported="true" >
+109-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:93:13-36
+110        </activity>
+111        <activity
+111-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:96:9-98:39
+112            android:name="com.example.petvet.ActivityAcceptedRequest"
+112-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:97:13-52
+113            android:exported="true" />
+113-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:98:13-36
+114        <activity
+114-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:99:9-101:39
+115            android:name="com.example.petvet.ActivityRejectedRequest"
+115-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:100:13-52
+116            android:exported="true" />
+116-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:101:13-36
+117        <activity
+117-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:102:9-105:20
+118            android:name="com.example.petvet.AdminPanel"
+118-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:103:13-39
+119            android:exported="true" >
+119-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:104:13-36
+120        </activity>
+121        <activity
+121-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:106:9-108:39
+122            android:name="com.example.petvet.AdminEditDoctors"
+122-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:107:13-45
+123            android:exported="true" />
+123-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:108:13-36
+124        <activity
+124-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:109:9-111:39
+125            android:name="com.example.petvet.ClientSearchDoctorActivity"
+125-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:110:13-55
+126            android:exported="true" />
+126-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:111:13-36
+127        <activity
+127-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:112:9-114:39
+128            android:name="com.example.petvet.ClientOrderHistoryActivity"
+128-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:113:13-55
+129            android:exported="true" />
+129-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:114:13-36
+130        <activity
+130-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:115:9-117:39
+131            android:name="com.example.petvet.ActivityClientPayments"
+131-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:116:13-51
+132            android:exported="true" />
+132-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:117:13-36
+133        <activity
+133-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:118:9-120:39
+134            android:name="com.example.petvet.ActivityTrackRequest"
+134-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:119:13-49
+135            android:exported="true" />
+135-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:120:13-36
+136        <activity
+136-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:121:9-123:39
+137            android:name="com.example.petvet.ActivityVetPendingRequests"
+137-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:122:13-54
+138            android:exported="true" />
+138-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:123:13-36
+139        <activity
+139-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:124:9-126:39
+140            android:name="com.example.petvet.ActivityVetServiceList"
+140-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:125:13-50
+141            android:exported="true" />
+141-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:126:13-36
+142        <activity
+142-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:127:9-129:39
+143            android:name="com.example.petvet.ActivityVetAddService"
+143-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:128:13-50
+144            android:exported="true" />
+144-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:129:13-36
+145        <activity
+145-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:130:9-132:39
+146            android:name="com.example.petvet.ActivityDoctorConfirmedOrders"
+146-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:131:13-57
+147            android:exported="true" />
+147-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:132:13-36
+148        <activity android:name="com.example.petvet.VetConfirmedRequest" />
+148-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:133:9-57
+148-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:133:19-54
+149        <activity
+149-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:134:9-136:39
+150            android:name="com.example.petvet.ActivityClientPayDetails"
+150-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:135:13-53
+151            android:exported="true" />
+151-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:136:13-36
+152        <activity
+152-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:137:9-139:39
+153            android:name="com.example.petvet.ActivityClientRequestedService"
+153-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:138:13-58
+154            android:exported="true" />
+154-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:139:13-36
+155        <activity
+155-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:140:9-144:20
+156            android:name="com.example.petvet.ActivityClientEditAccount"
+156-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:141:13-53
+157            android:exported="true" >
+157-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:142:13-36
+158        </activity>
+159        <activity
+159-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:145:9-147:39
+160            android:name="com.example.petvet.ActivityClientChangeAccount"
+160-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:146:13-55
+161            android:exported="true" />
+161-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:147:13-36
+162        <activity
+162-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:148:9-150:39
+163            android:name="com.example.petvet.ActivityAdminDoctors"
+163-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:149:13-48
+164            android:exported="true" />
+164-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:150:13-36
+165        <activity
+165-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:151:9-153:39
+166            android:name="com.example.petvet.ActivityAdminClients"
+166-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:152:13-49
+167            android:exported="true" />
+167-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:153:13-36
+168        <activity
+168-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:154:9-156:39
+169            android:name="com.example.petvet.ActivityAdminRequests"
+169-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:155:13-50
+170            android:exported="true" />
+170-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:156:13-36
+171        <activity
+171-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:157:9-159:39
+172            android:name="com.example.petvet.AdminPayments"
+172-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:158:13-41
+173            android:exported="true" />
+173-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:159:13-36
+174        <activity
+174-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:160:9-162:39
+175            android:name="com.example.petvet.ActivityAdminPayDetails"
+175-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:161:13-51
+176            android:exported="true" />
+176-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:162:13-36
+177        <activity
+177-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:163:9-165:39
+178            android:name="com.example.petvet.ActivityAdminServices"
+178-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:164:13-50
+179            android:exported="true" />
+179-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:165:13-36
+180        <activity
+180-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:166:9-168:39
+181            android:name="com.example.petvet.ActivityAdminAnalytics"
+181-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:167:13-50
+182            android:exported="true" />
+182-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:168:13-36
+183        <activity
+183-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:169:9-173:20
+184            android:name="com.example.petvet.ActivityTestImage"
+184-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:170:13-45
+185            android:exported="true" >
+185-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:171:13-36
+186        </activity>
+187        <activity
+187-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:174:9-176:39
+188            android:name="com.example.petvet.ActivityAdminPayments"
+188-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:175:13-50
+189            android:exported="true" />
+189-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:176:13-36
+190        <activity
+190-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:177:9-179:39
+191            android:name="com.example.petvet.ActivityAdminClientDetails"
+191-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:178:13-55
+192            android:exported="true" />
+192-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:179:13-36
+193        <activity
+193-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:180:9-182:39
+194            android:name="com.example.petvet.ActivityAdminDoctorDetails"
+194-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:181:13-55
+195            android:exported="true" />
+195-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:182:13-36
+196        <activity
+196-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:183:9-185:39
+197            android:name="com.example.petvet.VetPaymentShares"
+197-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:184:13-45
+198            android:exported="true" />
+198-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:185:13-36
+199        <activity
+199-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:186:9-188:39
+200            android:name="com.example.petvet.ActivityBusinessSharesDetails"
+200-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:187:13-58
+201            android:exported="true" />
+201-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:188:13-36
+202        <activity
+202-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:189:9-191:39
+203            android:name="com.example.petvet.ActivityVetSharesDetails"
+203-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:190:13-53
+204            android:exported="true" />
+204-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:191:13-36
+205        <activity
+205-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:192:9-194:39
+206            android:name="com.example.petvet.ActivityBusinessPayShares"
+206-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:193:13-54
+207            android:exported="true" />
+207-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:194:13-36
+208        <activity
+208-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:195:9-197:39
+209            android:name="com.example.petvet.ActivityClientTrack"
+209-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:196:13-48
+210            android:exported="true" />
+210-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:197:13-36
+211        <activity
+211-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:198:9-200:39
+212            android:name="com.example.petvet.AdminLogin"
+212-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:199:13-39
+213            android:exported="true" />
+213-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:200:13-36
+214        <activity
+214-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:201:9-202:38
+215            android:name="com.example.petvet.ActivityVetEditAccount"
+215-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:201:19-57
+216            android:exported="true" />
+216-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:202:13-36
+217        <activity
+217-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:203:9-204:38
+218            android:name="com.example.petvet.ActivityVetChangeAccount"
+218-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:203:19-59
+219            android:exported="true" />
+219-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:204:13-36
+220
+221        <service
+221-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:11:9-17:19
+222            android:name="com.google.firebase.components.ComponentDiscoveryService"
+222-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:12:13-84
+223            android:directBootAware="true"
+223-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+224            android:exported="false" >
+224-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:13:13-37
+225            <meta-data
+225-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:14:13-16:85
+226                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+226-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:15:17-124
+227                android:value="com.google.firebase.components.ComponentRegistrar" />
+227-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\581d6cc3dc16ce027cea1513737f8f02\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:16:17-82
+228            <meta-data
+228-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\8247b4ea20bddd0302e01b6dcb5ae6cb\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:14:13-16:85
+229                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+229-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\8247b4ea20bddd0302e01b6dcb5ae6cb\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:15:17-122
+230                android:value="com.google.firebase.components.ComponentRegistrar" />
+230-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\8247b4ea20bddd0302e01b6dcb5ae6cb\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:16:17-82
+231            <meta-data
+231-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\e086a922c1aa317ad28c6f66fb3e1311\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:11:13-13:85
+232                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+232-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\e086a922c1aa317ad28c6f66fb3e1311\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:12:17-116
+233                android:value="com.google.firebase.components.ComponentRegistrar" />
+233-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\e086a922c1aa317ad28c6f66fb3e1311\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:13:17-82
+234            <meta-data
+234-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4b814ed02422775b6e1a7ae86870b9b6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
+235                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+235-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4b814ed02422775b6e1a7ae86870b9b6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:12:17-126
+236                android:value="com.google.firebase.components.ComponentRegistrar" />
+236-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\4b814ed02422775b6e1a7ae86870b9b6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:13:17-82
+237            <meta-data
+237-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\7bae761217e41054a9fd2677f4bbaa72\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+238                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+238-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\7bae761217e41054a9fd2677f4bbaa72\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+239                android:value="com.google.firebase.components.ComponentRegistrar" />
+239-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\7bae761217e41054a9fd2677f4bbaa72\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+240            <meta-data
+240-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+241                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+241-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+242                android:value="com.google.firebase.components.ComponentRegistrar" />
+242-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\83ba99b1bfc01c225a29722779c9ab7d\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+243            <meta-data
+243-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+244                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+244-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+245                android:value="com.google.firebase.components.ComponentRegistrar" />
+245-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\b22a7b1d13dd1e0ffb88a93b9766b9b7\transformed\firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+246            <meta-data
+246-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+247                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+247-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+248                android:value="com.google.firebase.components.ComponentRegistrar" />
+248-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+249            <meta-data
+249-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+250                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+250-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+251                android:value="com.google.firebase.components.ComponentRegistrar" />
+251-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\13b27551c2c91e03cdbb7ab760d0ce7e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+252            <meta-data
+252-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+253                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+253-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+254                android:value="com.google.firebase.components.ComponentRegistrar" />
+254-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\d4bf90f9239e5ff2aa52b32573a7388d\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+255        </service> <!-- Needs to be explicitly declared on P+ -->
+256        <uses-library
+256-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+257            android:name="org.apache.http.legacy"
+257-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+258            android:required="false" />
+258-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\f35402e3ea6a1434b57262734ed497a3\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+259
+260        <activity
+260-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+261            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+261-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+262            android:excludeFromRecents="true"
+262-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+263            android:exported="true"
+263-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+264            android:launchMode="singleTask"
+264-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+265            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+265-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+266            <intent-filter>
+266-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+267                <action android:name="android.intent.action.VIEW" />
+267-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+267-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+268
+269                <category android:name="android.intent.category.DEFAULT" />
+269-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+269-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+270                <category android:name="android.intent.category.BROWSABLE" />
+270-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+270-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+271
+272                <data
+272-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+273                    android:host="firebase.auth"
+273-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+274                    android:path="/"
+274-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+275                    android:scheme="genericidp" />
+275-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+276            </intent-filter>
+277        </activity>
+278        <activity
+278-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+279            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+279-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+280            android:excludeFromRecents="true"
+280-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+281            android:exported="true"
+281-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+282            android:launchMode="singleTask"
+282-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+283            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+283-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+284            <intent-filter>
+284-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+285                <action android:name="android.intent.action.VIEW" />
+285-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+285-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+286
+287                <category android:name="android.intent.category.DEFAULT" />
+287-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+287-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+288                <category android:name="android.intent.category.BROWSABLE" />
+288-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+288-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+289
+290                <data
+290-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+291                    android:host="firebase.auth"
+291-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+292                    android:path="/"
+292-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+293                    android:scheme="recaptcha" />
+293-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\17e84e1210a73d941a87802d786a4b95\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+294            </intent-filter>
+295        </activity>
+296        <activity
+296-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\44489ee738af37e3030f21bbfa7f051e\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+297            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+297-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\44489ee738af37e3030f21bbfa7f051e\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+298            android:exported="false"
+298-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\44489ee738af37e3030f21bbfa7f051e\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+299            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+299-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\44489ee738af37e3030f21bbfa7f051e\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+300
+301        <provider
+301-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+302            android:name="com.google.firebase.provider.FirebaseInitProvider"
+302-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+303            android:authorities="com.example.petvet.firebaseinitprovider"
+303-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+304            android:directBootAware="true"
+304-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+305            android:exported="false"
+305-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+306            android:initOrder="100" />
+306-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\3313620fb24c3632dbaedd79d4970b11\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+307
+308        <receiver
+308-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+309            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+309-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+310            android:enabled="true"
+310-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+311            android:exported="false" >
+311-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+312        </receiver>
+313
+314        <service
+314-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+315            android:name="com.google.android.gms.measurement.AppMeasurementService"
+315-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+316            android:enabled="true"
+316-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+317            android:exported="false" />
+317-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+318        <service
+318-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+319            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+319-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+320            android:enabled="true"
+320-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+321            android:exported="false"
+321-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+322            android:permission="android.permission.BIND_JOB_SERVICE" />
+322-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\990b74c31238aaa8eafeb74bb7e364e7\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+323
+324        <meta-data
+324-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\320ad0926a99c20e5bb8a2eeccb9d18f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+325            android:name="com.google.android.gms.version"
+325-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\320ad0926a99c20e5bb8a2eeccb9d18f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+326            android:value="@integer/google_play_services_version" />
+326-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vincent\.gradle\caches\transforms-3\320ad0926a99c20e5bb8a2eeccb9d18f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+327
+328        <provider
+328-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+329            android:name="androidx.startup.InitializationProvider"
+329-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+330            android:authorities="com.example.petvet.androidx-startup"
+330-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+331            android:exported="false" >
+331-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+332            <meta-data
+332-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+333                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+333-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+334                android:value="androidx.startup" />
+334-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vincent\.gradle\caches\transforms-3\5d8b7a67babb75f7389134f5ac7b8612\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+335            <meta-data
+335-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\340f922d34716ad08dbc00795b82318d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+336                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+336-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\340f922d34716ad08dbc00795b82318d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+337                android:value="androidx.startup" />
+337-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vincent\.gradle\caches\transforms-3\340f922d34716ad08dbc00795b82318d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+338        </provider>
+339    </application>
+340
+341</manifest>

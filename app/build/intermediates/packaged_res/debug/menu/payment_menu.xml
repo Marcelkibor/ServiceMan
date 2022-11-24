@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="M-PESA"
+    android:icon="@drawable/mpesa"
+    android:id="@+id/pMpesa"/>
+    <item
+        android:title="PayPal"
+        android:icon="@drawable/paypal"
+        android:id="@+id/pPayPal"/>
+    <item
+    android:title="Simulate"
+        android:icon="@drawable/sim"
+    android:id="@+id/pSimulate"/>
+
+
+</menu>

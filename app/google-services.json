@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "470264577921",
+    "project_id": "flashservices-369522",
+    "storage_bucket": "flashservices-369522.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470264577921:android:29f9f268e35418c2e87280",
+        "android_client_info": {
+          "package_name": "com.example.petvet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470264577921-bg7bbcc235ohu55sa5sdqk1gvicenkgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApVw3GcAgjmz-IEvpIAdg37aLTxNxMERk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470264577921-bg7bbcc235ohu55sa5sdqk1gvicenkgt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

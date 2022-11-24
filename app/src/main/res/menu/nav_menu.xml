@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<item
+    android:id="@+id/vet_home"
+    android:icon="@drawable/home"
+    android:title="@string/sv_home"/>
+    <item
+        android:id="@+id/pending_request"
+        android:icon="@drawable/pending"
+        android:title="Pending request"/>
+    <item
+        android:id="@+id/track_request"
+        android:icon="@drawable/track"
+        android:title="Track request"/>
+<item
+    android:title="Services">
+    <menu>
+        <item
+            android:id="@+id/vet_service"
+            android:icon="@drawable/sv_services"
+            android:title="@string/sv_services"/>
+        <item
+            android:id="@+id/add_service"
+            android:title="Add new service"
+            android:icon="@drawable/add_service"/>
+    </menu>
+</item>
+    <item
+        android:title="Reports">
+        <menu>
+            <item
+                android:id="@+id/billings"
+                android:icon="@drawable/report"
+                android:title="Bills and shares"/>
+            <item
+                android:id="@+id/cleared_request"
+                android:title="Cleared requests"
+                android:icon="@drawable/add_service"/>
+        </menu>
+    </item>
+    <item
+        android:title="Settings"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/vet_account"
+                android:icon="@drawable/sv_services"
+                android:title="My Profile"/>
+            <item
+                android:id="@+id/vet_logout"
+                android:title="Log out"
+                android:icon="@drawable/logout"
+                tools:ignore="HardcodedText" />
+
+        </menu>
+    </item>
+
+
+
+</menu>

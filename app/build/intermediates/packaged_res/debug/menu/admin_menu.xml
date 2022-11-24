@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+tools:showIn="navigation_view">
+<item android:title="Home"
+android:icon="@drawable/home"
+android:id="@+id/admin_home">
+</item>
+<item
+android:id="@+id/admin_register"
+android:icon="@drawable/add"
+android:title="Register Doctor"/>
+<item
+android:title="Reports">
+<menu>
+<item
+android:title="Clients"
+android:id="@+id/admin_clients"
+android:icon="@drawable/track"
+/>
+<item
+android:title="Doctors"
+android:id="@+id/admin_vets"
+android:icon="@drawable/track"
+tools:ignore="HardcodedText" />
+<item
+android:id="@+id/admin_orders"
+android:title="Completed Requests"
+android:icon="@drawable/track"
+    tools:ignore="HardcodedText" />
+<item
+android:title="Payments"
+android:id="@+id/admin_payments"
+android:icon="@drawable/track"
+    tools:ignore="HardcodedText" />
+<item
+android:title="Log out"
+android:id="@+id/admin_logout"
+android:icon="@drawable/logout"/>
+</menu>
+</item>
+,</menu>

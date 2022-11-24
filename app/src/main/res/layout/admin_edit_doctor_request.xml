@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+tools:openDrawer="start"
+tools:context=".AdminEditDoctors"
+xmlns:tools="http://schemas.android.com/tools"
+>
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<com.google.android.material.appbar.MaterialToolbar
+android:id="@+id/toolBar"
+android:layout_width="match_parent"
+android:layout_height="80dp"
+android:background="@color/purple">
+<ImageView
+android:id="@+id/backArrow"
+android:layout_width="40dp"
+android:layout_height="40dp"
+android:layout_alignParentTop="true"
+android:layout_alignParentEnd="true"
+android:layout_marginTop="15dp"
+android:src="@drawable/back" />
+</com.google.android.material.appbar.MaterialToolbar>
+
+    <TextView
+        android:id="@+id/tvFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvServiceName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Doctor name"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/edDocName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvServiceName"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="34dp"
+        android:layout_toEndOf="@+id/tvFirstName"
+        android:text="Vet's name"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/edEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edDocName"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="35dp"
+        android:layout_toEndOf="@+id/tvFirstName"
+        android:text="vet email"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/edPhoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edDoctorId"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/tvPhone"
+        android:text="09472839"
+        android:textColor="#000000"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/edTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edPhoneNo"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="28dp"
+        android:layout_toEndOf="@+id/tvRequestedTime"
+        android:text="time"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/edDoctorId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edEmail"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@+id/tvFirstName"
+        android:text="doctor id"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvVetEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFirstName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Email"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+<TextView
+android:id="@+id/tvDoctorId"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/tvVetEmail"
+android:layout_alignParentStart="true"
+android:layout_marginStart="10dp"
+android:layout_marginTop="30dp"
+android:text="Doctor id"
+android:textColor="#000000"
+android:textSize="18sp"
+tools:ignore="HardcodedText" />
+<TextView
+android:id="@+id/tvPhone"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/tvDoctorId"
+android:layout_alignParentStart="true"
+android:layout_marginStart="10dp"
+android:layout_marginTop="33dp"
+android:text="P-Number"
+android:textColor="#000000"
+android:textSize="18sp"
+tools:ignore="HardcodedText" />
+<TextView
+android:id="@+id/tvRequestedTime"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/tvPhone"
+android:layout_alignParentStart="true"
+android:layout_marginStart="10dp"
+android:layout_marginTop="29dp"
+android:text="Request time:"
+android:textColor="#000000"
+android:textSize="15sp"
+android:textStyle="bold" />
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@id/tvRequestedTime"
+android:layout_marginStart="10dp"
+android:layout_marginTop="20dp"
+android:id="@+id/tvHeaderSelect"
+android:text="Select action"
+android:textColor="@color/purple"
+android:textSize="18sp"
+android:textStyle="bold" />
+<RadioGroup
+android:id="@+id/radioGroup"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@id/tvHeaderSelect">
+<RadioButton
+android:id="@+id/radioBtnAccept"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:checked="true"
+android:text="Verify documents"
+tools:ignore="HardcodedText" />
+<RadioButton
+android:id="@+id/radioBtnDecline"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Decline request"
+tools:ignore="HardcodedText" />
+</RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#9C27B0"
+        android:text="Submit"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvServiceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolBar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="49dp"
+        android:text="Doctor registration requests"
+        android:textColor="#0A0C0A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

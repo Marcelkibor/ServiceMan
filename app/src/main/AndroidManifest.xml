@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PetVet"
+        tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+        <activity
+            android:name="MapActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps"
+            tools:ignore="MissingClass">
+
+        </activity>
+        <activity
+            android:name=".ClientLoginActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".VetLoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AuthenticatedClientActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ClientRegister"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".VetRegisterActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".SelectRegister"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AuthenticatedVetActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ClientSelectServiceActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ServiceListActivity"
+            android:exported="true"
+            android:parentActivityName=".AuthenticatedVetActivity">
+
+        </activity>
+        <activity
+            android:name=".EditServiceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LocationTest"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".VetEditRequest"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ClearedRequestActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ActivityAcceptedRequest"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityRejectedRequest"
+            android:exported="true" />
+        <activity
+            android:name=".AdminPanel"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".AdminEditDoctors"
+            android:exported="true" />
+        <activity
+            android:name=".ClientSearchDoctorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ClientOrderHistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityClientPayments"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityTrackRequest"
+            android:exported="true" />
+        <activity
+            android:name="ActivityVetPendingRequests"
+            android:exported="true" />
+        <activity
+            android:name="ActivityVetServiceList"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityVetAddService"
+            android:exported="true" />
+        <activity
+            android:name="ActivityDoctorConfirmedOrders"
+            android:exported="true" />
+        <activity android:name=".VetConfirmedRequest" />
+        <activity
+            android:name=".ActivityClientPayDetails"
+            android:exported="true" />
+        <activity
+            android:name="ActivityClientRequestedService"
+            android:exported="true" />
+        <activity
+            android:name="ActivityClientEditAccount"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="ActivityClientChangeAccount"
+            android:exported="true" />
+        <activity
+            android:name="ActivityAdminDoctors"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityAdminClients"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityAdminRequests"
+            android:exported="true" />
+        <activity
+            android:name="AdminPayments"
+            android:exported="true" />
+        <activity
+            android:name="ActivityAdminPayDetails"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityAdminServices"
+            android:exported="true" />
+        <activity
+            android:name="ActivityAdminAnalytics"
+            android:exported="true" />
+        <activity
+            android:name="ActivityTestImage"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ActivityAdminPayments"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityAdminClientDetails"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityAdminDoctorDetails"
+            android:exported="true" />
+        <activity
+            android:name=".VetPaymentShares"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityBusinessSharesDetails"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityVetSharesDetails"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityBusinessPayShares"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityClientTrack"
+            android:exported="true" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="true" />
+        <activity android:name=".ActivityVetEditAccount"
+            android:exported="true"/>
+        <activity android:name=".ActivityVetChangeAccount"
+            android:exported="true"/>
+    </application>
+</manifest>
