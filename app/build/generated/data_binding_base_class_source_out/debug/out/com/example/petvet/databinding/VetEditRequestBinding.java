@@ -58,12 +58,6 @@ public final class VetEditRequestBinding implements ViewBinding {
   public final ImageView servPhoto;
 
   @NonNull
-  public final TextView tvAnimalCategory;
-
-  @NonNull
-  public final TextView tvAnimalCategoryDesc;
-
-  @NonNull
   public final TextView tvClientDesc;
 
   @NonNull
@@ -79,6 +73,12 @@ public final class VetEditRequestBinding implements ViewBinding {
   public final TextView tvRequestedTimeDesc;
 
   @NonNull
+  public final TextView tvServiceArea;
+
+  @NonNull
+  public final TextView tvServiceAreaDesc;
+
+  @NonNull
   public final TextView tvServiceRequest;
 
   @NonNull
@@ -89,10 +89,10 @@ public final class VetEditRequestBinding implements ViewBinding {
       @NonNull CardView cardHeaders, @NonNull CardView cardRadio, @NonNull ImageView drawerHome,
       @NonNull TextView greetingText, @NonNull RadioButton radioBtn1,
       @NonNull RadioButton radioBtn2, @NonNull RadioGroup radioGroup, @NonNull ImageView servPhoto,
-      @NonNull TextView tvAnimalCategory, @NonNull TextView tvAnimalCategoryDesc,
       @NonNull TextView tvClientDesc, @NonNull TextView tvClientDescLabel,
       @NonNull TextView tvHeaderSelect, @NonNull TextView tvRequestedTime,
-      @NonNull TextView tvRequestedTimeDesc, @NonNull TextView tvServiceRequest,
+      @NonNull TextView tvRequestedTimeDesc, @NonNull TextView tvServiceArea,
+      @NonNull TextView tvServiceAreaDesc, @NonNull TextView tvServiceRequest,
       @NonNull TextView tvServiceRequestDesc) {
     this.rootView = rootView;
     this.backArrow = backArrow;
@@ -106,13 +106,13 @@ public final class VetEditRequestBinding implements ViewBinding {
     this.radioBtn2 = radioBtn2;
     this.radioGroup = radioGroup;
     this.servPhoto = servPhoto;
-    this.tvAnimalCategory = tvAnimalCategory;
-    this.tvAnimalCategoryDesc = tvAnimalCategoryDesc;
     this.tvClientDesc = tvClientDesc;
     this.tvClientDescLabel = tvClientDescLabel;
     this.tvHeaderSelect = tvHeaderSelect;
     this.tvRequestedTime = tvRequestedTime;
     this.tvRequestedTimeDesc = tvRequestedTimeDesc;
+    this.tvServiceArea = tvServiceArea;
+    this.tvServiceAreaDesc = tvServiceAreaDesc;
     this.tvServiceRequest = tvServiceRequest;
     this.tvServiceRequestDesc = tvServiceRequestDesc;
   }
@@ -210,18 +210,6 @@ public final class VetEditRequestBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvAnimalCategory;
-      TextView tvAnimalCategory = ViewBindings.findChildViewById(rootView, id);
-      if (tvAnimalCategory == null) {
-        break missingId;
-      }
-
-      id = R.id.tvAnimalCategoryDesc;
-      TextView tvAnimalCategoryDesc = ViewBindings.findChildViewById(rootView, id);
-      if (tvAnimalCategoryDesc == null) {
-        break missingId;
-      }
-
       id = R.id.tvClientDesc;
       TextView tvClientDesc = ViewBindings.findChildViewById(rootView, id);
       if (tvClientDesc == null) {
@@ -252,6 +240,18 @@ public final class VetEditRequestBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvServiceArea;
+      TextView tvServiceArea = ViewBindings.findChildViewById(rootView, id);
+      if (tvServiceArea == null) {
+        break missingId;
+      }
+
+      id = R.id.tvServiceAreaDesc;
+      TextView tvServiceAreaDesc = ViewBindings.findChildViewById(rootView, id);
+      if (tvServiceAreaDesc == null) {
+        break missingId;
+      }
+
       id = R.id.tvServiceRequest;
       TextView tvServiceRequest = ViewBindings.findChildViewById(rootView, id);
       if (tvServiceRequest == null) {
@@ -266,8 +266,8 @@ public final class VetEditRequestBinding implements ViewBinding {
 
       return new VetEditRequestBinding((DrawerLayout) rootView, backArrow, btConfirm,
           cardCategories, cardHeaders, cardRadio, drawerHome, greetingText, radioBtn1, radioBtn2,
-          radioGroup, servPhoto, tvAnimalCategory, tvAnimalCategoryDesc, tvClientDesc,
-          tvClientDescLabel, tvHeaderSelect, tvRequestedTime, tvRequestedTimeDesc, tvServiceRequest,
+          radioGroup, servPhoto, tvClientDesc, tvClientDescLabel, tvHeaderSelect, tvRequestedTime,
+          tvRequestedTimeDesc, tvServiceArea, tvServiceAreaDesc, tvServiceRequest,
           tvServiceRequestDesc);
     }
     String missingId = rootView.getResources().getResourceName(id);

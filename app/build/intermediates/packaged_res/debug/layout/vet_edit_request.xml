@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#E3DDDD"
     android:fitsSystemWindows="true"
-    tools:context=".VetEditRequest"
+    tools:context=".EditRequest"
     tools:openDrawer="start">
 
     <RelativeLayout
@@ -122,27 +122,27 @@
                 tools:ignore="HardcodedText" />
 
             <TextView
-                android:id="@+id/tvAnimalCategory"
+                android:id="@+id/tvServiceArea"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvServiceRequest"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="180dp"
                 android:layout_marginTop="60dp"
-                android:text="Animal Category"
+                android:text="ServiceArea"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 tools:ignore="HardcodedText" />
 
             <TextView
-                android:id="@+id/tvAnimalCategoryDesc"
+                android:id="@+id/tvServiceAreaDesc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvServiceRequest"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="60dp"
-                android:text="Animal Category:"
+                android:text="Service Area:"
                 android:textColor="#000000"
                 android:textSize="15sp"
                 android:textStyle="bold"

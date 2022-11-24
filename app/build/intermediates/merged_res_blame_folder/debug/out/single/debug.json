@@ -100,10 +100,6 @@
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.example.petvet.app-merged_res-39:/layout_map_activity.xml.flat",
-        "source": "com.example.petvet.app-main-41:/layout/map_activity.xml"
-    },
-    {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\drawable_list.xml.flat",
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\drawable\\list.xml"
     },
@@ -486,6 +482,10 @@
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\layout_select_register.xml.flat",
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\layout\\select_register.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_vet_edit_request.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/vet_edit_request.xml"
     },
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\drawable_settings.xml.flat",

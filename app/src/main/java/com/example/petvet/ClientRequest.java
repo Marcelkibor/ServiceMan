@@ -4,7 +4,7 @@ public class ClientRequest {
     private String requestID;
     private String serviceName;
     private String requestDescription;
-    private String sex;
+    private String serviceArea;
     private String category;
     private String clientID;
     private String imageUri;
@@ -17,13 +17,13 @@ public class ClientRequest {
 
     public ClientRequest(String requestID, String serviceName,
                          String requestDescription,
-                         String sex, String category,
+                         String serviceArea, String category,
                          String clientID, String imageUri,
                          String requestTime,String clientName,String vetID) {
         this.requestID = requestID;
         this.serviceName = serviceName;
         this.requestDescription = requestDescription;
-        this.sex = sex;
+        this.serviceArea = serviceArea;
         this.category = category;
         this.clientID = clientID;
         this.imageUri = imageUri;
@@ -64,8 +64,8 @@ public class ClientRequest {
         return requestDescription;
     }
 
-    public String getSex() {
-        return sex;
+    public String getServiceArea() {
+        return serviceArea;
     }
 
     public String getServiceName() {
@@ -89,8 +89,8 @@ public class ClientRequest {
         this.serviceName = serviceName;
     }
 
-    public void setSex(String sex) {
-        this.sex = sex;
+    public void setServiceArea(String serviceArea) {
+        this.serviceArea = serviceArea;
     }
 
     public void setVetID(String vetID) {

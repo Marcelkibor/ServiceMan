@@ -54,14 +54,14 @@
         <activity
             android:name=".SelectRegister"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".AuthenticatedServiceManActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
         <activity
@@ -84,7 +84,7 @@
 
         </activity>
         <activity
-            android:name=".VetEditRequest"
+            android:name=".EditRequest"
             android:exported="true">
 
         </activity>
@@ -119,7 +119,7 @@
             android:name=".ActivityTrackRequest"
             android:exported="true" />
         <activity
-            android:name="ActivityVetPendingRequests"
+            android:name="ActivityPendingRequests"
             android:exported="true" />
         <activity
             android:name="ActivityVetServiceList"

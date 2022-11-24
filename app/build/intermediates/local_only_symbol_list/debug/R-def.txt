@@ -316,6 +316,8 @@ id tvRequests
 id tvSearchDoctor
 id tvServName
 id tvService
+id tvServiceArea
+id tvServiceAreaDesc
 id tvServiceId
 id tvServiceIdDesc
 id tvServiceName

@@ -3674,6 +3674,8 @@ int id tvRequests 0x7f0902fc
 int id tvSearchDoctor 0x7f0902fd
 int id tvServName 0x7f0902fe
 int id tvService 0x7f0902ff
+int id tvServiceArea 0x7f090332
+int id tvServiceAreaDesc 0x7f090333
 int id tvServiceId 0x7f090300
 int id tvServiceIdDesc 0x7f090301
 int id tvServiceName 0x7f090302

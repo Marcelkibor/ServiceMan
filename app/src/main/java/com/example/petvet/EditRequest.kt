@@ -33,11 +33,11 @@ private lateinit var requestTime:String
 private lateinit var clientUsername: String
 private lateinit var svCategory: String
 private lateinit var svDesc:String
-private lateinit var animSex:String
+private lateinit var serviceArea:String
 private lateinit var animAge:String
 private lateinit var imageUri:Uri
 private lateinit var vet_id:String
-class VetEditRequest : AppCompatActivity() {
+class EditRequest : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = VetEditRequestBinding.inflate(layoutInflater)
@@ -46,7 +46,7 @@ class VetEditRequest : AppCompatActivity() {
         val bundle: Bundle? = intent.extras
         svDesc = bundle?.getString("svDesc").toString()
         animAge = bundle?.getString("animAge").toString()
-        animSex =  bundle?.getString("animSex").toString()
+        serviceArea =  bundle?.getString("serviceArea").toString()
         clientUsername = bundle?.getString("ClientName").toString()
         svService = bundle?.getString("ServiceName").toString()
         svCategory = bundle?.getString("AnimalCategory").toString()
@@ -58,11 +58,11 @@ class VetEditRequest : AppCompatActivity() {
             animAge = bundle.getString("animAge").toString()
         Glide.with(baseContext).load(imageUri).into(binding.servPhoto)
         binding.tvClientDesc.text = clientUsername
-        binding.tvAnimalCategory.text = svService
+        binding.tvServiceArea.text = serviceArea
         binding.tvServiceRequest.text = svCategory
         binding.tvRequestedTimeDesc.text = requestTime
         binding.backArrow.setOnClickListener {
-            val intent = Intent(this, ActivityVetPendingRequests::class.java)
+            val intent = Intent(this, ActivityPendingRequests::class.java)
             startActivity(intent)
         }
         binding.btConfirm.setOnClickListener {
@@ -73,7 +73,7 @@ class VetEditRequest : AppCompatActivity() {
     @SuppressLint("SimpleDateFormat", "WeekBasedYear")
     private fun vetClearRequest() {
         try {
-            val dialog = Dialog(this@VetEditRequest)
+            val dialog = Dialog(this@EditRequest)
             dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
             dialog.setContentView(R.layout.custom_dialog)
             dialog.setCancelable(false)
@@ -89,7 +89,7 @@ class VetEditRequest : AppCompatActivity() {
             val currTime = SimpleDateFormat("M / d / Y / H:m:s ").format(currDay.time).toString()
             if (userId != null) {
                 val clientConfirmRequest = ClientRequest(
-                   request_id, svService, svDesc, animSex, svCategory, client_uid,
+                   request_id, svService, svDesc, serviceArea, svCategory, client_uid,
                     imageUri.toString(), requestTime, clientUsername,vet_id
                 )
                 clearedRequestDb.child(key).setValue(clientConfirmRequest).addOnCompleteListener {
@@ -115,20 +115,20 @@ class VetEditRequest : AppCompatActivity() {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     if (snapshot.exists()) {
                         snapshot.ref.removeValue()
-                        Toast.makeText(this@VetEditRequest, "Success!", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this@EditRequest, "Success!", Toast.LENGTH_SHORT).show()
                         val intent =
-                            Intent(this@VetEditRequest, AuthenticatedServiceManActivity::class.java)
+                            Intent(this@EditRequest, AuthenticatedServiceManActivity::class.java)
                         startActivity(intent)
                         finish()
                     }
                 }
 
                 override fun onCancelled(error: DatabaseError) {
-                    Toast.makeText(this@VetEditRequest, error.message, Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@EditRequest, error.message, Toast.LENGTH_SHORT).show()
                 }
             })
         } catch (e: Exception) {
-            Toast.makeText(this@VetEditRequest, e.message, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@EditRequest, e.message, Toast.LENGTH_SHORT).show()
         }
     }
 }

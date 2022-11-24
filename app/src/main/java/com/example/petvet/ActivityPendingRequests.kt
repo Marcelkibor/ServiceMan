@@ -4,12 +4,10 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.petvet.databinding.FragmentBillingsBinding
 import com.example.petvet.databinding.FragmentRequestBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
@@ -24,7 +22,7 @@ private lateinit var auth:FirebaseAuth
 private lateinit var binding: FragmentRequestBinding
 private lateinit var dbRef: DatabaseReference
 
-class ActivityVetPendingRequests : AppCompatActivity() {
+class ActivityPendingRequests : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = FragmentRequestBinding.inflate(layoutInflater)
@@ -62,7 +60,7 @@ class ActivityVetPendingRequests : AppCompatActivity() {
                             override fun onItemClick(position: Int) {
                                 val svName = requestList[position].serviceName
                                 val client = requestList[position].clientName
-                                val animSex = requestList[position].sex
+                                val serviceArea = requestList[position].serviceArea
                                 val requestId = requestList[position].requestID
                                 val clientId = requestList[position].clientID
                                 val svDesc = requestList[position].requestDescription
@@ -72,17 +70,17 @@ class ActivityVetPendingRequests : AppCompatActivity() {
                                 val vet_id = requestList[position].vetID
                                 binding.backArrow.setOnClickListener {
                                     val intent = Intent(
-                                        this@ActivityVetPendingRequests,
-                                        ActivityVetPendingRequests::class.java
+                                        this@ActivityPendingRequests,
+                                        ActivityPendingRequests::class.java
                                     )
                                     startActivity(intent)
                                 }
                                 val intent = Intent(
-                                    this@ActivityVetPendingRequests,
-                                    VetEditRequest::class.java
+                                    this@ActivityPendingRequests,
+                                    EditRequest::class.java
                                 )
                                 intent.putExtra("ClientName", client)
-                                intent.putExtra("animSex", animSex)
+                                intent.putExtra("serviceArea", serviceArea)
                                 intent.putExtra("ServiceName", svName)
                                 intent.putExtra("clientUserID", clientId)
                                 intent.putExtra("AnimalCategory", animCategory)
@@ -99,13 +97,13 @@ class ActivityVetPendingRequests : AppCompatActivity() {
                         binding.tvListStatus.visibility = View.VISIBLE
                     }
                 } catch (e: Exception) {
-                    Toast.makeText(this@ActivityVetPendingRequests, e.message, Toast.LENGTH_SHORT)
+                    Toast.makeText(this@ActivityPendingRequests, e.message, Toast.LENGTH_SHORT)
                         .show()
                 }
             }
 
             override fun onCancelled(error: DatabaseError) {
-                Toast.makeText(this@ActivityVetPendingRequests, error.message, Toast.LENGTH_SHORT)
+                Toast.makeText(this@ActivityPendingRequests, error.message, Toast.LENGTH_SHORT)
                     .show()
             }
         })

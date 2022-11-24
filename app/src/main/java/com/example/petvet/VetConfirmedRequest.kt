@@ -43,7 +43,7 @@ class VetConfirmedRequest : AppCompatActivity() {
         binding.tvServiceRequest.text = svService
         binding.tvRequestedTimeDesc.text = reqTime
         binding.backArrow.setOnClickListener {
-            val intent = Intent(this, ActivityVetPendingRequests::class.java)
+            val intent = Intent(this, ActivityPendingRequests::class.java)
             startActivity(intent)
             finish()
         }

@@ -69,7 +69,7 @@ class AuthenticatedServiceManActivity : AppCompatActivity() {
             openBillings()
         }
         binding.cardPending.setOnClickListener {
-            val intent = Intent(this, ActivityVetPendingRequests::class.java)
+            val intent = Intent(this, ActivityPendingRequests::class.java)
             startActivity(intent)
         }
         binding.cardTrack.setOnClickListener {
@@ -95,7 +95,7 @@ class AuthenticatedServiceManActivity : AppCompatActivity() {
 
     private fun fetchDisplayName() {
         try {
-            val vetDb = FirebaseDatabase.getInstance().getReference("Doctor")
+            val vetDb = FirebaseDatabase.getInstance().getReference("ServiceMan")
             vetDb.addValueEventListener(object : ValueEventListener {
                 @SuppressLint("SetTextI18n")
                 override fun onDataChange(snapshot: DataSnapshot) {
@@ -103,7 +103,7 @@ class AuthenticatedServiceManActivity : AppCompatActivity() {
                         for (snap in snapshot.children) {
                             val item = snap.getValue(VetDoctor::class.java)
                             if (item?.doctorUid == auth.currentUser?.uid) {
-                                binding.vetDisplayName.setText("Welcome, Dr " + item?.doctorName)
+                                binding.vetDisplayName.setText("Welcome," + item?.doctorName)
                                 binding.vetDisplayName.visibility = View.VISIBLE
                                 displayEmail = item?.doctorEmail.toString()
                                 displayName = item?.doctorName.toString()
@@ -157,7 +157,7 @@ class AuthenticatedServiceManActivity : AppCompatActivity() {
     }
 
     private fun openPending() {
-        val intent = Intent(this, ActivityVetPendingRequests::class.java)
+        val intent = Intent(this, ActivityPendingRequests::class.java)
         startActivity(intent)
     }
 
