@@ -12,7 +12,7 @@ class SelectRegister : AppCompatActivity() {
         binding = SelectRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.btVetRegister.setOnClickListener{
-            val intent = Intent(this,VetLoginActivity::class.java)
+            val intent = Intent(this,ServiceManLoginActivity::class.java)
             startActivity(intent)
         }
         binding.btClientRegister.setOnClickListener {

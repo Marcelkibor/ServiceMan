@@ -3186,7 +3186,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id edAge
 id edClientEmail
 id edClientFirstName
 id edClientLastName
@@ -3511,8 +3510,8 @@ id snapMargins
 id software
 id south
 id spCategory
+id spLocationArea
 id spServices
-id spSex
 id spacer
 id special_effects_controller_view_tag
 id spline
@@ -3604,7 +3603,6 @@ id tvAddress
 id tvAdminEmail
 id tvAdminName
 id tvAge
-id tvAge2
 id tvAge3
 id tvAge4
 id tvAmount

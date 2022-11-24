@@ -34,7 +34,7 @@
 
         </activity>
         <activity
-            android:name=".VetLoginActivity"
+            android:name=".ServiceManLoginActivity"
             android:exported="true" />
         <activity
             android:name=".AuthenticatedClientActivity"
@@ -47,7 +47,7 @@
 
         </activity>
         <activity
-            android:name=".VetRegisterActivity"
+            android:name=".ServiceManRegisterActivity"
             android:exported="true">
 
         </activity>
@@ -107,7 +107,7 @@
             android:name=".AdminEditDoctors"
             android:exported="true" />
         <activity
-            android:name=".ClientSearchDoctorActivity"
+            android:name=".ClientSearchServiceManActivity"
             android:exported="true" />
         <activity
             android:name=".ClientOrderHistoryActivity"

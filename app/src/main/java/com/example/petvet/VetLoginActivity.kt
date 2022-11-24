@@ -15,14 +15,14 @@ import com.google.firebase.auth.FirebaseAuth
 private lateinit var binding: VetLoggActivityBinding
 private lateinit var auth: FirebaseAuth
 private lateinit var dialog: Dialog
-class VetLoginActivity : AppCompatActivity() {
+class ServiceManLoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         auth = FirebaseAuth.getInstance()
         binding = VetLoggActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.textView.setOnClickListener {
-            val intent = Intent(this,VetRegisterActivity::class.java)
+            val intent = Intent(this,ServiceManRegisterActivity::class.java)
             startActivity(intent)
             finish()
         }
@@ -32,7 +32,7 @@ class VetLoginActivity : AppCompatActivity() {
     }
     private fun authenticate() {
         try{
-             dialog = Dialog(this@VetLoginActivity)
+             dialog = Dialog(this@ServiceManLoginActivity)
             dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
             dialog.setContentView(R.layout.custom_dialog)
             dialog.setCancelable(false)

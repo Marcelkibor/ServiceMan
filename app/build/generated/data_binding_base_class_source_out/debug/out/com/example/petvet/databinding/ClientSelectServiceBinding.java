@@ -35,9 +35,6 @@ public final class ClientSelectServiceBinding implements ViewBinding {
   public final MaterialButton btRequest;
 
   @NonNull
-  public final EditText edAge;
-
-  @NonNull
   public final EditText edIssue;
 
   @NonNull
@@ -53,19 +50,10 @@ public final class ClientSelectServiceBinding implements ViewBinding {
   public final Spinner spCategory;
 
   @NonNull
-  public final Spinner spServices;
-
-  @NonNull
-  public final Spinner spSex;
+  public final Spinner spLocationArea;
 
   @NonNull
   public final TextView textView3;
-
-  @NonNull
-  public final TextView tvAge;
-
-  @NonNull
-  public final TextView tvAge2;
 
   @NonNull
   public final TextView tvAge3;
@@ -83,41 +71,32 @@ public final class ClientSelectServiceBinding implements ViewBinding {
   public final TextView tvDocName;
 
   @NonNull
-  public final TextView tvHeader2;
-
-  @NonNull
   public final TextView tvSex2;
 
   private ClientSelectServiceBinding(@NonNull ConstraintLayout rootView,
       @NonNull FrameLayout FrameContent, @NonNull FrameLayout FramePhoto,
-      @NonNull MaterialButton btRequest, @NonNull EditText edAge, @NonNull EditText edIssue,
+      @NonNull MaterialButton btRequest, @NonNull EditText edIssue,
       @NonNull FrameLayout headerFrame, @NonNull ImageView imageView,
-      @NonNull ImageView servicePhoto, @NonNull Spinner spCategory, @NonNull Spinner spServices,
-      @NonNull Spinner spSex, @NonNull TextView textView3, @NonNull TextView tvAge,
-      @NonNull TextView tvAge2, @NonNull TextView tvAge3, @NonNull TextView tvAge4,
+      @NonNull ImageView servicePhoto, @NonNull Spinner spCategory, @NonNull Spinner spLocationArea,
+      @NonNull TextView textView3, @NonNull TextView tvAge3, @NonNull TextView tvAge4,
       @NonNull CardView tvCardHeader, @NonNull TextView tvCategory2, @NonNull TextView tvDocName,
-      @NonNull TextView tvHeader2, @NonNull TextView tvSex2) {
+      @NonNull TextView tvSex2) {
     this.rootView = rootView;
     this.FrameContent = FrameContent;
     this.FramePhoto = FramePhoto;
     this.btRequest = btRequest;
-    this.edAge = edAge;
     this.edIssue = edIssue;
     this.headerFrame = headerFrame;
     this.imageView = imageView;
     this.servicePhoto = servicePhoto;
     this.spCategory = spCategory;
-    this.spServices = spServices;
-    this.spSex = spSex;
+    this.spLocationArea = spLocationArea;
     this.textView3 = textView3;
-    this.tvAge = tvAge;
-    this.tvAge2 = tvAge2;
     this.tvAge3 = tvAge3;
     this.tvAge4 = tvAge4;
     this.tvCardHeader = tvCardHeader;
     this.tvCategory2 = tvCategory2;
     this.tvDocName = tvDocName;
-    this.tvHeader2 = tvHeader2;
     this.tvSex2 = tvSex2;
   }
 
@@ -166,12 +145,6 @@ public final class ClientSelectServiceBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.edAge;
-      EditText edAge = ViewBindings.findChildViewById(rootView, id);
-      if (edAge == null) {
-        break missingId;
-      }
-
       id = R.id.edIssue;
       EditText edIssue = ViewBindings.findChildViewById(rootView, id);
       if (edIssue == null) {
@@ -202,33 +175,15 @@ public final class ClientSelectServiceBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.spServices;
-      Spinner spServices = ViewBindings.findChildViewById(rootView, id);
-      if (spServices == null) {
-        break missingId;
-      }
-
-      id = R.id.spSex;
-      Spinner spSex = ViewBindings.findChildViewById(rootView, id);
-      if (spSex == null) {
+      id = R.id.spLocationArea;
+      Spinner spLocationArea = ViewBindings.findChildViewById(rootView, id);
+      if (spLocationArea == null) {
         break missingId;
       }
 
       id = R.id.textView3;
       TextView textView3 = ViewBindings.findChildViewById(rootView, id);
       if (textView3 == null) {
-        break missingId;
-      }
-
-      id = R.id.tvAge;
-      TextView tvAge = ViewBindings.findChildViewById(rootView, id);
-      if (tvAge == null) {
-        break missingId;
-      }
-
-      id = R.id.tvAge2;
-      TextView tvAge2 = ViewBindings.findChildViewById(rootView, id);
-      if (tvAge2 == null) {
         break missingId;
       }
 
@@ -262,12 +217,6 @@ public final class ClientSelectServiceBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvHeader2;
-      TextView tvHeader2 = ViewBindings.findChildViewById(rootView, id);
-      if (tvHeader2 == null) {
-        break missingId;
-      }
-
       id = R.id.tvSex2;
       TextView tvSex2 = ViewBindings.findChildViewById(rootView, id);
       if (tvSex2 == null) {
@@ -275,9 +224,8 @@ public final class ClientSelectServiceBinding implements ViewBinding {
       }
 
       return new ClientSelectServiceBinding((ConstraintLayout) rootView, FrameContent, FramePhoto,
-          btRequest, edAge, edIssue, headerFrame, imageView, servicePhoto, spCategory, spServices,
-          spSex, textView3, tvAge, tvAge2, tvAge3, tvAge4, tvCardHeader, tvCategory2, tvDocName,
-          tvHeader2, tvSex2);
+          btRequest, edIssue, headerFrame, imageView, servicePhoto, spCategory, spLocationArea,
+          textView3, tvAge3, tvAge4, tvCardHeader, tvCategory2, tvDocName, tvSex2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

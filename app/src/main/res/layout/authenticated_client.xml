@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginTop="-20dp"
-            android:backgroundTint="#650875"
+            android:backgroundTint="#3F51B5"
             android:elevation="20dp"
             app:cardCornerRadius="15sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -84,7 +84,7 @@
             android:layout_gravity="fill"
             android:layout_marginStart="19dp"
             android:layout_marginTop="80dp"
-            android:backgroundTint="#673AB7"
+            android:backgroundTint="#3F51B5"
             android:elevation="10dp"
             app:cardCornerRadius="15dp"
             app:cardUseCompatPadding="true"
@@ -113,7 +113,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:gravity="center"
-                    android:text="Search Doctor"
+                    android:text="Search"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold"
@@ -130,13 +130,12 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:layout_marginStart="19dp"
-            android:backgroundTint="#9C27B0"
+            android:backgroundTint="#4CAF50"
             android:elevation="8dp"
             app:cardCornerRadius="15dp"
             app:cardUseCompatPadding="true"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cardCompletedOrders"
+            app:layout_constraintStart_toEndOf="@+id/cardCompletedOrders"
+            app:layout_constraintTop_toBottomOf="@+id/cardSearch"
             tools:ignore="MissingConstraints">
 
             <FrameLayout
@@ -167,52 +166,6 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardTrack"
-            android:layout_width="180dp"
-            android:layout_height="130dp"
-            android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:layout_marginTop="80dp"
-            android:backgroundTint="#F44336"
-            android:elevation="8dp"
-            app:cardCornerRadius="15dp"
-            app:cardUseCompatPadding="true"
-            app:layout_constraintStart_toEndOf="@+id/cardSearch"
-            app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
-            tools:ignore="MissingConstraints">
-
-            <FrameLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="clip_vertical|center_horizontal"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/pin" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:gravity="center"
-                    android:text="Track my order"
-                    android:textAlignment="center"
-                    android:textColor="@color/white"
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    tools:ignore="HardcodedText" />
-            </FrameLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
             android:id="@+id/cardWallet"
             android:layout_width="180dp"
             android:layout_height="130dp"
@@ -225,8 +178,8 @@
             android:elevation="8dp"
             app:cardCornerRadius="15dp"
             app:cardUseCompatPadding="true"
-            app:layout_constraintStart_toEndOf="@+id/accountCardView"
-            app:layout_constraintTop_toBottomOf="@+id/cardTrack"
+            app:layout_constraintStart_toEndOf="@+id/cardSearch"
+            app:layout_constraintTop_toTopOf="@+id/cardSearch"
             tools:ignore="MissingConstraints">
 
             <FrameLayout
@@ -266,7 +219,7 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_marginStart="19dp"
-            android:backgroundTint="#FF9800"
+            android:backgroundTint="#03A9F4"
             android:elevation="8dp"
             app:cardCornerRadius="15dp"
             app:cardUseCompatPadding="true"

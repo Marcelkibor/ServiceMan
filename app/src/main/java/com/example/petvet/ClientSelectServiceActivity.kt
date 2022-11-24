@@ -92,12 +92,7 @@ class ClientSelectServiceActivity : AppCompatActivity() {
             this,
             androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, serviceList
         )
-        binding.spServices.adapter = serviceAdapter
-        val genderAdapter = ArrayAdapter<String>(
-            this,
-            androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, genderList
-        )
-        binding.spSex.adapter = genderAdapter
+
 //        initialize category adapter
         binding.spCategory.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(
@@ -114,22 +109,9 @@ class ClientSelectServiceActivity : AppCompatActivity() {
             }
         }
 //        initialize service spinner
-        binding.spServices.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(
-                adapterView: AdapterView<*>?,
-                view: View?,
-                position: Int,
-                id: Long
-            ) {
-                val service = adapterView?.getItemAtPosition(position).toString()
-                txService = service
-            }
 
-            override fun onNothingSelected(p0: AdapterView<*>?) {
-            }
-        }
         //initialize gender spinner
-        binding.spSex.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+        binding.spLocationArea.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(
                 adapterView: AdapterView<*>?,
                 view: View?,
@@ -317,13 +299,7 @@ class ClientSelectServiceActivity : AppCompatActivity() {
     @SuppressLint("SimpleDateFormat", "WeekBasedYear")
     private fun submitRequest(uri: Uri) {
 //        Toast.makeText(this@ClientSelectServiceActivity, clientUsername,Toast.LENGTH_SHORT).show()
-        val animalAge = binding.edAge
         val requestDescription = binding.edIssue
-        if (animalAge.text.toString().isEmpty()) {
-            animalAge.error = "Add age!"
-            animalAge.requestFocus()
-            return
-        }
         if (requestDescription.text.toString().isEmpty()) {
             requestDescription.error = "Add details!"
             requestDescription.requestFocus()
@@ -357,7 +333,6 @@ class ClientSelectServiceActivity : AppCompatActivity() {
                         intent.putExtra("clientName", clientUsername)
                         intent.putExtra("requestTime", currTime)
                         intent.putExtra("imageUri", firebaseUri)
-                        intent.putExtra("animalAge", binding.edAge.text.toString())
                         intent.putExtra("animalGender", txGender)
                         intent.putExtra("requestDesc", binding.edIssue.text.toString())
                         startActivity(intent)

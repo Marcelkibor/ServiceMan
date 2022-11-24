@@ -57,7 +57,7 @@
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.petvet.VetLoginActivity"
+            android:name="com.example.petvet.ServiceManLoginActivity"
             android:exported="true" />
         <activity
             android:name="com.example.petvet.AuthenticatedClientActivity"
@@ -68,7 +68,7 @@
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.petvet.VetRegisterActivity"
+            android:name="com.example.petvet.ServiceManRegisterActivity"
             android:exported="true" >
         </activity>
         <activity
@@ -122,7 +122,7 @@
             android:name="com.example.petvet.AdminEditDoctors"
             android:exported="true" />
         <activity
-            android:name="com.example.petvet.ClientSearchDoctorActivity"
+            android:name="com.example.petvet.ClientSearchServiceManActivity"
             android:exported="true" />
         <activity
             android:name="com.example.petvet.ClientOrderHistoryActivity"

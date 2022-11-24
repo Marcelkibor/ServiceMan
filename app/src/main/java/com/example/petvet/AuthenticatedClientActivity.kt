@@ -62,11 +62,7 @@ class AuthenticatedClientActivity : AppCompatActivity() {
             true
         }
         binding.cardSearch.setOnClickListener {
-            val intent = Intent(this, ClientSearchDoctorActivity::class.java)
-            startActivity(intent)
-        }
-        binding.cardTrack.setOnClickListener {
-            val intent = Intent(this, ActivityClientTrack::class.java)
+            val intent = Intent(this, ClientSearchServiceManActivity::class.java)
             startActivity(intent)
         }
         binding.accountCardView.setOnClickListener {
@@ -167,7 +163,7 @@ class AuthenticatedClientActivity : AppCompatActivity() {
     }
 
     private fun clientSearch() {
-        val intent = Intent(this, ClientSearchDoctorActivity::class.java)
+        val intent = Intent(this, ClientSearchServiceManActivity::class.java)
         startActivity(intent)
         binding.ClientDrawerLayout.close()
     }

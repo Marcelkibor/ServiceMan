@@ -29,7 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
-                android:textColor="#673AB7"
+                android:textColor="#000000"
                 android:text="@string/add_service"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -42,25 +42,14 @@
         android:id="@+id/FrameContent"
         app:layout_constraintTop_toBottomOf="@id/headerFrame"
         android:layout_marginTop="20dp">
+
         <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            app:cardElevation="10dp"
+            android:layout_width="402dp"
+            android:layout_height="210dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             app:cardCornerRadius="10sp"
-            android:layout_height="260dp">
-            <TextView
-                android:id="@+id/tvAge2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="160dp"
-                android:layout_marginStart="15dp"
-                android:text="@string/service"
-                android:textColor="#000000"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvAge" />
+            app:cardElevation="10dp">
 
 
             <TextView
@@ -68,19 +57,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
-                android:textColor="#000000"
                 android:layout_marginTop="10dp"
-                android:text="@string/category"
+                android:text="Select Service:"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold"
-            />
+                android:textStyle="bold" />
+
             <Spinner
                 android:id="@+id/spCategory"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
-                android:entries="@array/animal_category"
-                android:layout_marginTop="5dp"
                 android:layout_marginStart="150dp"
+                android:layout_marginTop="5dp"
+                android:entries="@array/animal_category"
                 android:hint="@string/emailText"
                 android:importantForAutofill="no"
                 android:inputType="textEmailAddress"
@@ -93,74 +82,40 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="60dp"
-                android:text="@string/sex"
-                android:textSize="18sp"
+                android:text="Location Area"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                />
-            <TextView
-                android:id="@+id/tvAge"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="110dp"
-                android:layout_marginStart="15dp"
-                android:text="@string/age"
                 android:textSize="18sp"
-                android:textColor="#000000"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvSex2" />
+                android:textStyle="bold" />
 
 
             <Spinner
-                android:id="@+id/spSex"
+                android:id="@+id/spLocationArea"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:layout_marginStart="150dp"
                 android:layout_marginTop="55dp"
                 android:hint="@string/passwordText"
-                android:layout_marginStart="150dp"
                 android:importantForAutofill="no"
-                android:inputType="numberPassword"
-                />
-            <EditText
-                android:id="@+id/edAge"
-                android:layout_width="wrap_content"
-                android:layout_marginStart="150dp"
-                android:layout_height="40dp"
-                android:hint="Enter Age"
-                android:layout_marginTop="110dp"
-                android:importantForAutofill="no"
-                android:inputType="number"
-                app:layout_constraintStart_toEndOf="@+id/tvAge"
-                app:layout_constraintTop_toBottomOf="@+id/spSex" />
+                android:inputType="numberPassword" />
+
             <TextView
                 android:id="@+id/tvAge3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="210dp"
-                android:textColor="#000000"
+                android:layout_marginTop="110dp"
                 android:text="@string/detail"
+                android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold"/>
-            <Spinner
-                android:id="@+id/spServices"
-                android:layout_width="wrap_content"
-                android:layout_marginStart="150dp"
-                android:layout_height="40dp"
-                android:hint="@string/passwordText"
-                android:importantForAutofill="no"
-                android:layout_marginTop="160dp"
-                android:inputType="numberPassword"
-                app:layout_constraintStart_toEndOf="@+id/tvAge2"
-                app:layout_constraintTop_toBottomOf="@+id/edAge" />
+                android:textStyle="bold" />
+
             <EditText
                 android:id="@+id/edIssue"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:hint="Describe Issue"
                 android:layout_marginStart="150dp"
-                android:layout_marginTop="210dp"
+                android:layout_marginTop="110dp"
+                android:hint="Describe Issue"
                 android:importantForAutofill="no"
                 android:inputType="text"
                 app:layout_constraintStart_toEndOf="@+id/tvAge3"
@@ -229,21 +184,10 @@
             android:src="@drawable/doc"
             tools:ignore="ContentDescription" />
         <TextView
-            android:id="@+id/tvHeader2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:text="Dr"
-            android:layout_marginTop="100dp"
-            android:textSize="20sp"
-            tools:ignore="HardcodedText" />
-        <TextView
             android:id="@+id/tvDocName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
+            android:layout_marginStart="20dp"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:text="Mulama"

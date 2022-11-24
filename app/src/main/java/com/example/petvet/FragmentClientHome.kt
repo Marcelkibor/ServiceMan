@@ -50,7 +50,7 @@ class FragmentClientHome : Fragment() {
             startActivity(intent)
         }
         cardSearch.setOnClickListener {
-        val intent = Intent(activity,ClientSearchDoctorActivity::class.java)
+        val intent = Intent(activity,ClientSearchServiceManActivity::class.java)
             startActivity(intent)
         }
         cardTrackRequest.setOnClickListener {

@@ -362,7 +362,7 @@ class AdminPanel : AppCompatActivity() {
     }
 
     private fun registerDoctor() {
-        val intent = Intent(this, VetRegisterActivity::class.java)
+        val intent = Intent(this, ServiceManRegisterActivity::class.java)
         startActivity(intent)
     }
 

@@ -36,9 +36,6 @@ public final class AuthenticatedClientBinding implements ViewBinding {
   public final CardView cardSearch;
 
   @NonNull
-  public final CardView cardTrack;
-
-  @NonNull
   public final CardView cardWallet;
 
   @NonNull
@@ -71,17 +68,16 @@ public final class AuthenticatedClientBinding implements ViewBinding {
   private AuthenticatedClientBinding(@NonNull DrawerLayout rootView,
       @NonNull DrawerLayout ClientDrawerLayout, @NonNull CardView accountCardView,
       @NonNull CardView cardCompletedOrders, @NonNull CardView cardSearch,
-      @NonNull CardView cardTrack, @NonNull CardView cardWallet,
-      @NonNull TextView clientDisplayName, @NonNull NavigationView clientNavBar,
-      @NonNull ImageView drawerHome, @NonNull ImageView drawerIcon, @NonNull TextView greetingText,
-      @NonNull FrameLayout ltService, @NonNull CardView relativeLayout2,
-      @NonNull TextView tvMyServices, @NonNull FrameLayout vetFrameLayout) {
+      @NonNull CardView cardWallet, @NonNull TextView clientDisplayName,
+      @NonNull NavigationView clientNavBar, @NonNull ImageView drawerHome,
+      @NonNull ImageView drawerIcon, @NonNull TextView greetingText, @NonNull FrameLayout ltService,
+      @NonNull CardView relativeLayout2, @NonNull TextView tvMyServices,
+      @NonNull FrameLayout vetFrameLayout) {
     this.rootView = rootView;
     this.ClientDrawerLayout = ClientDrawerLayout;
     this.accountCardView = accountCardView;
     this.cardCompletedOrders = cardCompletedOrders;
     this.cardSearch = cardSearch;
-    this.cardTrack = cardTrack;
     this.cardWallet = cardWallet;
     this.clientDisplayName = clientDisplayName;
     this.clientNavBar = clientNavBar;
@@ -138,12 +134,6 @@ public final class AuthenticatedClientBinding implements ViewBinding {
       id = R.id.cardSearch;
       CardView cardSearch = ViewBindings.findChildViewById(rootView, id);
       if (cardSearch == null) {
-        break missingId;
-      }
-
-      id = R.id.cardTrack;
-      CardView cardTrack = ViewBindings.findChildViewById(rootView, id);
-      if (cardTrack == null) {
         break missingId;
       }
 
@@ -208,9 +198,9 @@ public final class AuthenticatedClientBinding implements ViewBinding {
       }
 
       return new AuthenticatedClientBinding((DrawerLayout) rootView, ClientDrawerLayout,
-          accountCardView, cardCompletedOrders, cardSearch, cardTrack, cardWallet,
-          clientDisplayName, clientNavBar, drawerHome, drawerIcon, greetingText, ltService,
-          relativeLayout2, tvMyServices, vetFrameLayout);
+          accountCardView, cardCompletedOrders, cardSearch, cardWallet, clientDisplayName,
+          clientNavBar, drawerHome, drawerIcon, greetingText, ltService, relativeLayout2,
+          tvMyServices, vetFrameLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

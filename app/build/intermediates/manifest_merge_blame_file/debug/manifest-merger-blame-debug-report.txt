@@ -103,8 +103,8 @@
 58        </activity>
 59        <activity
 59-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:36:9-38:39
-60            android:name="com.example.petvet.VetLoginActivity"
-60-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:37:13-45
+60            android:name="com.example.petvet.ServiceManLoginActivity"
+60-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:37:13-52
 61            android:exported="true" />
 61-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:38:13-36
 62        <activity
@@ -123,8 +123,8 @@
 69        </activity>
 70        <activity
 70-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:49:9-53:20
-71            android:name="com.example.petvet.VetRegisterActivity"
-71-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:50:13-48
+71            android:name="com.example.petvet.ServiceManRegisterActivity"
+71-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:50:13-55
 72            android:exported="true" >
 72-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:51:13-36
 73        </activity>
@@ -222,8 +222,8 @@
 123-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:108:13-36
 124        <activity
 124-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:109:9-111:39
-125            android:name="com.example.petvet.ClientSearchDoctorActivity"
-125-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:110:13-55
+125            android:name="com.example.petvet.ClientSearchServiceManActivity"
+125-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:110:13-59
 126            android:exported="true" />
 126-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:111:13-36
 127        <activity

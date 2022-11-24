@@ -144,7 +144,6 @@ id docImg
 id drawer_home
 id drawer_icon
 id drawer_layout
-id edAge
 id edClientEmail
 id edClientFirstName
 id edClientLastName
@@ -224,8 +223,8 @@ id servPhoto
 id serviceImage
 id servicePhoto
 id spCategory
+id spLocationArea
 id spServices
-id spSex
 id tcTopText
 id testImage
 id textView
@@ -245,7 +244,6 @@ id tvAddress
 id tvAdminEmail
 id tvAdminName
 id tvAge
-id tvAge2
 id tvAge3
 id tvAge4
 id tvAmount
