@@ -40,10 +40,9 @@ private lateinit var binding: ClientSelectServiceBinding
 
 @SuppressLint("StaticFieldLeak")
 private lateinit var fusedLocationProviderClient: FusedLocationProviderClient
-private lateinit var txGender: String
+private lateinit var txLocationArea: String
 private lateinit var txCategory: String
 private lateinit var locationList: ArrayList<DoctorLocation>
-private lateinit var txService: String
 private var finDist by Delegates.notNull<Double>()
 private lateinit var vet_id: String
 private lateinit var currTime: String
@@ -117,8 +116,8 @@ class ClientSelectServiceActivity : AppCompatActivity() {
                 position: Int,
                 id: Long
             ) {
-                val gender = adapterView?.getItemAtPosition(position).toString()
-                txGender = gender
+                val locationArea = adapterView?.getItemAtPosition(position).toString()
+                txLocationArea = locationArea
             }
 
             override fun onNothingSelected(p0: AdapterView<*>?) {
@@ -327,14 +326,13 @@ class ClientSelectServiceActivity : AppCompatActivity() {
                         intent.putExtra("clientLongitude", clientLong)
                         intent.putExtra("clientLatitude", clientLat)
                         intent.putExtra("animalCategory", txCategory)
-                        intent.putExtra("clientService", txService)
                         intent.putExtra("vetLatitude", serviceManLatitude)
                         intent.putExtra("vetLongitude", serviceManLongitude)
                         intent.putExtra("vetDocId", vet_id)
                         intent.putExtra("clientName", clientUsername)
                         intent.putExtra("requestTime", currTime)
                         intent.putExtra("imageUri", firebaseUri)
-                        intent.putExtra("animalGender", txGender)
+                        intent.putExtra("txLocationArea", txLocationArea)
                         intent.putExtra("requestDesc", binding.edIssue.text.toString())
                         startActivity(intent)
                         finish()

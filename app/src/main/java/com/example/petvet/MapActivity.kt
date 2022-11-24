@@ -49,6 +49,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
     private lateinit var currentService: String
     private lateinit var animalAge: String
     private lateinit var finDist: String
+    private lateinit var txLocationArea:String
     private lateinit var animalCategory: String
     private lateinit var requestDesc: String
     private lateinit var animalGender: String
@@ -66,13 +67,12 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         currentService = bundle?.getString("clientService").toString()
         animalCategory = bundle?.getString("animalCategory").toString()
         vetLat = bundle?.getString("vetLatitude").toString()
+        txLocationArea = bundle?.getString("txLocationArea").toString()
         vetLong = bundle?.getString("vetLongitude").toString()
         vetDocId = bundle?.getString("vetDocId").toString()
         requestTime = bundle?.getString("requestTime").toString()
         imageUri = bundle?.getString("imageUri").toString()
         requestDesc = bundle?.getString("requestDesc").toString()
-        animalGender = bundle?.getString("animalGender").toString()
-        animalAge = bundle?.getString("animalAge").toString()
         clientUsername = bundle?.getString("clientName").toString()
         Toast.makeText(this, "Client longitude $clientLong", Toast.LENGTH_SHORT).show()
         val vetCord = LatLng(vetLat.toDouble(), vetLong.toDouble())
@@ -80,7 +80,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         locationServiceArray.add(vetCord.toString())
         locationServiceArray.add(clientCord.toString())
         binding.tvAddCategory.text = animalCategory
-        binding.tvAddService.text = currentService
+        binding.tvAddService.text = txLocationArea
         vetLocationDistance()
         binding.btRequestService.setOnClickListener {
             showPaymentDialog()
