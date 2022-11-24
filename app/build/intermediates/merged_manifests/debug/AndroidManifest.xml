@@ -78,11 +78,6 @@
         <activity
             android:name="com.example.petvet.AuthenticatedServiceManActivity"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.example.petvet.ClientSelectServiceActivity"
@@ -117,6 +112,11 @@
         <activity
             android:name="com.example.petvet.AdminPanel"
             android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.example.petvet.AdminEditDoctors"

@@ -80,7 +80,7 @@ class ActivityAdminServiceProviders : AppCompatActivity() {
 
     private fun fetchDoctorList() {
         try {
-            dbRef = FirebaseDatabase.getInstance().getReference("Doctor")
+            dbRef = FirebaseDatabase.getInstance().getReference("ServiceMan")
             dbRef.addValueEventListener(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     if (snapshot.exists()) {
