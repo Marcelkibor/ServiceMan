@@ -27,7 +27,7 @@ private lateinit var tempArrayList: ArrayList<VetDoctor>
 private lateinit var backUpArray:ArrayList<VetDoctor>
 
 
-class ActivityAdminDoctors : AppCompatActivity() {
+class ActivityAdminServiceProviders : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
@@ -95,7 +95,7 @@ class ActivityAdminDoctors : AppCompatActivity() {
                             DoctorListAdapter.OnItemClickListener {
                             override fun onItemClick(position: Int) {
                                 val intent = Intent(
-                                    this@ActivityAdminDoctors,
+                                    this@ActivityAdminServiceProviders,
                                     ActivityAdminDoctorDetails::class.java
                                 )
                                 val docName = doctorList[position].doctorName
@@ -109,18 +109,18 @@ class ActivityAdminDoctors : AppCompatActivity() {
                             }
                         })
                     } else {
-                        Toast.makeText(this@ActivityAdminDoctors, "No Data!!", Toast.LENGTH_SHORT)
+                        Toast.makeText(this@ActivityAdminServiceProviders, "No Data!!", Toast.LENGTH_SHORT)
                             .show()
                     }
                 }
 
                 override fun onCancelled(error: DatabaseError) {
-                    Toast.makeText(this@ActivityAdminDoctors, error.message, Toast.LENGTH_SHORT)
+                    Toast.makeText(this@ActivityAdminServiceProviders, error.message, Toast.LENGTH_SHORT)
                         .show()
                 }
             })
         } catch (e: Exception) {
-            Toast.makeText(this@ActivityAdminDoctors, e.message, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@ActivityAdminServiceProviders, e.message, Toast.LENGTH_SHORT).show()
 
         }
 

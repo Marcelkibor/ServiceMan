@@ -52,9 +52,6 @@ public final class AdminPanelBinding implements ViewBinding {
   public final CardView cardPayments;
 
   @NonNull
-  public final CardView cardRegisterDoc;
-
-  @NonNull
   public final CardView cardRequests;
 
   @NonNull
@@ -82,9 +79,6 @@ public final class AdminPanelBinding implements ViewBinding {
   public final FrameLayout ltPayments;
 
   @NonNull
-  public final FrameLayout ltRegisterDoc;
-
-  @NonNull
   public final FrameLayout ltRequests;
 
   @NonNull
@@ -103,9 +97,6 @@ public final class AdminPanelBinding implements ViewBinding {
   public final TextView tvPayments;
 
   @NonNull
-  public final TextView tvRegisterDoc;
-
-  @NonNull
   public final TextView tvRequests;
 
   @NonNull
@@ -115,14 +106,12 @@ public final class AdminPanelBinding implements ViewBinding {
       @NonNull FrameLayout adminFrame, @NonNull NavigationView adminNavBar,
       @NonNull ViewPager adminViewPager, @NonNull CardView cardAnalytics,
       @NonNull CardView cardClients, @NonNull CardView cardDocLists, @NonNull CardView cardHeader,
-      @NonNull CardView cardPayments, @NonNull CardView cardRegisterDoc,
-      @NonNull CardView cardRequests, @NonNull CardView cardShares, @NonNull ImageView drawerHome,
-      @NonNull ImageView drawerIcon, @NonNull TextView greetingText,
+      @NonNull CardView cardPayments, @NonNull CardView cardRequests, @NonNull CardView cardShares,
+      @NonNull ImageView drawerHome, @NonNull ImageView drawerIcon, @NonNull TextView greetingText,
       @NonNull FrameLayout ltAnalytics, @NonNull FrameLayout ltClients,
       @NonNull FrameLayout ltDocLists, @NonNull FrameLayout ltPayments,
-      @NonNull FrameLayout ltRegisterDoc, @NonNull FrameLayout ltRequests,
-      @NonNull FrameLayout ltShares, @NonNull TextView tvAnalytics, @NonNull TextView tvClients,
-      @NonNull TextView tvMyDocLists, @NonNull TextView tvPayments, @NonNull TextView tvRegisterDoc,
+      @NonNull FrameLayout ltRequests, @NonNull FrameLayout ltShares, @NonNull TextView tvAnalytics,
+      @NonNull TextView tvClients, @NonNull TextView tvMyDocLists, @NonNull TextView tvPayments,
       @NonNull TextView tvRequests, @NonNull TextView tvShares) {
     this.rootView = rootView;
     this.adminDrawer = adminDrawer;
@@ -134,7 +123,6 @@ public final class AdminPanelBinding implements ViewBinding {
     this.cardDocLists = cardDocLists;
     this.cardHeader = cardHeader;
     this.cardPayments = cardPayments;
-    this.cardRegisterDoc = cardRegisterDoc;
     this.cardRequests = cardRequests;
     this.cardShares = cardShares;
     this.drawerHome = drawerHome;
@@ -144,14 +132,12 @@ public final class AdminPanelBinding implements ViewBinding {
     this.ltClients = ltClients;
     this.ltDocLists = ltDocLists;
     this.ltPayments = ltPayments;
-    this.ltRegisterDoc = ltRegisterDoc;
     this.ltRequests = ltRequests;
     this.ltShares = ltShares;
     this.tvAnalytics = tvAnalytics;
     this.tvClients = tvClients;
     this.tvMyDocLists = tvMyDocLists;
     this.tvPayments = tvPayments;
-    this.tvRegisterDoc = tvRegisterDoc;
     this.tvRequests = tvRequests;
     this.tvShares = tvShares;
   }
@@ -233,12 +219,6 @@ public final class AdminPanelBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.cardRegisterDoc;
-      CardView cardRegisterDoc = ViewBindings.findChildViewById(rootView, id);
-      if (cardRegisterDoc == null) {
-        break missingId;
-      }
-
       id = R.id.cardRequests;
       CardView cardRequests = ViewBindings.findChildViewById(rootView, id);
       if (cardRequests == null) {
@@ -293,12 +273,6 @@ public final class AdminPanelBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.ltRegisterDoc;
-      FrameLayout ltRegisterDoc = ViewBindings.findChildViewById(rootView, id);
-      if (ltRegisterDoc == null) {
-        break missingId;
-      }
-
       id = R.id.ltRequests;
       FrameLayout ltRequests = ViewBindings.findChildViewById(rootView, id);
       if (ltRequests == null) {
@@ -335,12 +309,6 @@ public final class AdminPanelBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvRegisterDoc;
-      TextView tvRegisterDoc = ViewBindings.findChildViewById(rootView, id);
-      if (tvRegisterDoc == null) {
-        break missingId;
-      }
-
       id = R.id.tvRequests;
       TextView tvRequests = ViewBindings.findChildViewById(rootView, id);
       if (tvRequests == null) {
@@ -355,9 +323,9 @@ public final class AdminPanelBinding implements ViewBinding {
 
       return new AdminPanelBinding((DrawerLayout) rootView, adminDrawer, adminFrame, adminNavBar,
           adminViewPager, cardAnalytics, cardClients, cardDocLists, cardHeader, cardPayments,
-          cardRegisterDoc, cardRequests, cardShares, drawerHome, drawerIcon, greetingText,
-          ltAnalytics, ltClients, ltDocLists, ltPayments, ltRegisterDoc, ltRequests, ltShares,
-          tvAnalytics, tvClients, tvMyDocLists, tvPayments, tvRegisterDoc, tvRequests, tvShares);
+          cardRequests, cardShares, drawerHome, drawerIcon, greetingText, ltAnalytics, ltClients,
+          ltDocLists, ltPayments, ltRequests, ltShares, tvAnalytics, tvClients, tvMyDocLists,
+          tvPayments, tvRequests, tvShares);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

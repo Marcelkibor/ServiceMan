@@ -298,8 +298,8 @@
 161-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:147:13-36
 162        <activity
 162-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:148:9-150:39
-163            android:name="com.example.petvet.ActivityAdminDoctors"
-163-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:149:13-48
+163            android:name="com.example.petvet.ActivityAdminServiceProviders"
+163-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:149:13-57
 164            android:exported="true" />
 164-->C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:150:13-36
 165        <activity

@@ -426,12 +426,12 @@ ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src
 		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:147:13-36
 	android:name
 		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:146:13-55
-activity#com.example.petvet.ActivityAdminDoctors
+activity#com.example.petvet.ActivityAdminServiceProviders
 ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:148:9-150:39
 	android:exported
 		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:150:13-36
 	android:name
-		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:149:13-48
+		ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:149:13-57
 activity#com.example.petvet.ActivityAdminClients
 ADDED from C:\Users\Vincent\Desktop\Android Projecrt\LocationTrackingVet\app\src\main\AndroidManifest.xml:151:9-153:39
 	android:exported

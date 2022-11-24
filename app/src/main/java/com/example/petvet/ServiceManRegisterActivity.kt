@@ -163,7 +163,7 @@ private fun checkCredentials() {
         if (userId != null) {
             val newDoc = VetDoctor(doctorName,doctorEmail,userId,binding.edPassword.text.toString(),binding.edLastName.text.toString(),binding.edPhone.text.toString())
             doctorDbRef.child(userId).setValue(newDoc).addOnCompleteListener {
-                val intent = Intent(this,ActivityAdminDoctors::class.java)
+                val intent = Intent(this,ActivityAdminServiceProviders::class.java)
                 startActivity(intent)
                 doctorID = userId
                 Toast.makeText(this@ServiceManRegisterActivity,"Successfully Registered",Toast.LENGTH_SHORT).show()

@@ -73,7 +73,7 @@ class AdminPanel : AppCompatActivity() {
             true
         }
         binding.cardDocLists.setOnClickListener {
-            val intent = Intent(this, ActivityAdminDoctors::class.java)
+            val intent = Intent(this, ActivityAdminServiceProviders::class.java)
             startActivity(intent)
         }
         binding.cardPayments.setOnClickListener {
@@ -82,9 +82,6 @@ class AdminPanel : AppCompatActivity() {
         binding.cardRequests.setOnClickListener {
             openRequest()
 
-        }
-        binding.cardRegisterDoc.setOnClickListener {
-            registerDoctor()
         }
         binding.cardClients.setOnClickListener {
             openClientList()
@@ -340,7 +337,7 @@ class AdminPanel : AppCompatActivity() {
     }
 
     private fun openDoctorsList() {
-        val intent = Intent(this, ActivityAdminDoctors::class.java)
+        val intent = Intent(this, ActivityAdminServiceProviders::class.java)
         startActivity(intent)
         binding.adminDrawer.close()
     }

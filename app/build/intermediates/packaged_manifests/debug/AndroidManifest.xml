@@ -160,7 +160,7 @@
             android:name="com.example.petvet.ActivityClientChangeAccount"
             android:exported="true" />
         <activity
-            android:name="com.example.petvet.ActivityAdminDoctors"
+            android:name="com.example.petvet.ActivityAdminServiceProviders"
             android:exported="true" />
         <activity
             android:name="com.example.petvet.ActivityAdminClients"

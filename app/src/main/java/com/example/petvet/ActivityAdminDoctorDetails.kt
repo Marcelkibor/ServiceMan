@@ -33,7 +33,7 @@ class ActivityAdminDoctorDetails : AppCompatActivity() {
         docUid =  bundle?.getString("docUid").toString()
 
         binding.backArrow.setOnClickListener {
-            val intent = Intent(this, ActivityAdminDoctors::class.java)
+            val intent = Intent(this, ActivityAdminServiceProviders::class.java)
             startActivity(intent)
             finish()
         }

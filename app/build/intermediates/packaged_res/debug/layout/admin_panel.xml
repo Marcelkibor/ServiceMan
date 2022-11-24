@@ -57,46 +57,6 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardRegisterDoc"
-            android:layout_width="150dp"
-            android:layout_height="110dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="300dp"
-            android:backgroundTint="#2196F3"
-            android:elevation="10dp"
-            app:cardCornerRadius="15dp">
-
-            <FrameLayout
-                android:id="@+id/ltRegisterDoc"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="clip_vertical|center_horizontal"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/add" />
-
-                <TextView
-                    android:id="@+id/tvRegisterDoc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:gravity="center"
-                    android:text="Register Doctor"
-                    android:textColor="@color/white"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
-            </FrameLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
             android:id="@+id/cardRequests"
             android:layout_width="150dp"
             android:layout_height="110dp"
@@ -145,7 +105,7 @@
             android:layout_columnWeight="1"
             android:layout_gravity="left"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="420dp"
+            android:layout_marginTop="300dp"
             android:backgroundTint="#4CAF50"
             android:elevation="10dp"
             app:cardCornerRadius="15dp">
@@ -204,7 +164,7 @@
                     android:layout_height="50dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/heal" />
+                    android:src="@drawable/sv_services" />
 
                 <TextView
                     android:id="@+id/tvMyDocLists"
@@ -212,7 +172,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:gravity="center"
-                    android:text="Doctors"
+                    android:text="Service Providers"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -227,7 +187,7 @@
             android:layout_columnWeight="1"
             android:layout_gravity="left"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="540dp"
+            android:layout_marginTop="420dp"
             android:backgroundTint="#FF5722"
             android:elevation="10dp"
             app:cardCornerRadius="15dp">
@@ -336,7 +296,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:gravity="center"
-                    android:text="Analytics"
+                    android:text="Reports"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />

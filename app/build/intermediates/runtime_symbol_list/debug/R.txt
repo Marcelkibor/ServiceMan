@@ -3081,7 +3081,6 @@ int id cardPayments 0x7f0900a9
 int id cardPending 0x7f0900aa
 int id cardPhoto 0x7f0900ab
 int id cardRadio 0x7f0900ac
-int id cardRegisterDoc 0x7f0900ad
 int id cardRequests 0x7f0900ae
 int id cardSearch 0x7f0900af
 int id cardService 0x7f0900b0
@@ -3299,7 +3298,6 @@ int id ltDocLists 0x7f090184
 int id ltMpesa 0x7f090185
 int id ltPayments 0x7f090186
 int id ltPaypal 0x7f090187
-int id ltRegisterDoc 0x7f090188
 int id ltRequests 0x7f090189
 int id ltService 0x7f09018a
 int id ltShares 0x7f09018b
@@ -3665,7 +3663,6 @@ int id tvPhoneDesc 0x7f0902f3
 int id tvPhoneNumber 0x7f0902f4
 int id tvPhoneNumberDesc 0x7f0902f5
 int id tvPrice 0x7f0902f6
-int id tvRegisterDoc 0x7f0902f7
 int id tvRegistered 0x7f0902f8
 int id tvRejected 0x7f0902f9
 int id tvRequestedTime 0x7f0902fa

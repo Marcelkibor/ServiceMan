@@ -146,7 +146,7 @@
             android:name="ActivityClientChangeAccount"
             android:exported="true" />
         <activity
-            android:name="ActivityAdminDoctors"
+            android:name="ActivityAdminServiceProviders"
             android:exported="true" />
         <activity
             android:name=".ActivityAdminClients"

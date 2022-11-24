@@ -30,7 +30,7 @@ class ClientRequestViewHolder(itemView: View,listener: OnItemClickListener): Rec
         val currentRequest = client_request[position]
         holder.itemView.apply {
             tvClientRequestName.text = currentRequest.clientName
-           tvClientServiceName.text = currentRequest.serviceName
+           tvClientServiceName.text = currentRequest.category
             Glide.with(context).load(currentRequest.imageUri).into(imgRequest)
         }
     }

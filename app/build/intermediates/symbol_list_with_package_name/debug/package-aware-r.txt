@@ -3082,7 +3082,6 @@ id cardPayments
 id cardPending
 id cardPhoto
 id cardRadio
-id cardRegisterDoc
 id cardRequests
 id cardSearch
 id cardService
@@ -3300,7 +3299,6 @@ id ltDocLists
 id ltMpesa
 id ltPayments
 id ltPaypal
-id ltRegisterDoc
 id ltRequests
 id ltService
 id ltShares
@@ -3666,7 +3664,6 @@ id tvPhoneDesc
 id tvPhoneNumber
 id tvPhoneNumberDesc
 id tvPrice
-id tvRegisterDoc
 id tvRegistered
 id tvRejected
 id tvRequestedTime
