@@ -4,7 +4,6 @@ package com.example.petvet.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -33,33 +32,24 @@ public final class FragmentAdminClientsBinding implements ViewBinding {
   public final CardView cardIdentifiers;
 
   @NonNull
-  public final EditText edSearchDoctor;
-
-  @NonNull
   public final TextView greetingText;
 
   @NonNull
   public final RecyclerView rvAdminClients;
 
   @NonNull
-  public final ImageView searchIcon;
-
-  @NonNull
   public final TextView tvListStatus;
 
   private FragmentAdminClientsBinding(@NonNull DrawerLayout rootView, @NonNull ImageView backArrow,
       @NonNull CardView cardHeader, @NonNull CardView cardIdentifiers,
-      @NonNull EditText edSearchDoctor, @NonNull TextView greetingText,
-      @NonNull RecyclerView rvAdminClients, @NonNull ImageView searchIcon,
+      @NonNull TextView greetingText, @NonNull RecyclerView rvAdminClients,
       @NonNull TextView tvListStatus) {
     this.rootView = rootView;
     this.backArrow = backArrow;
     this.cardHeader = cardHeader;
     this.cardIdentifiers = cardIdentifiers;
-    this.edSearchDoctor = edSearchDoctor;
     this.greetingText = greetingText;
     this.rvAdminClients = rvAdminClients;
-    this.searchIcon = searchIcon;
     this.tvListStatus = tvListStatus;
   }
 
@@ -108,12 +98,6 @@ public final class FragmentAdminClientsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.edSearchDoctor;
-      EditText edSearchDoctor = ViewBindings.findChildViewById(rootView, id);
-      if (edSearchDoctor == null) {
-        break missingId;
-      }
-
       id = R.id.greetingText;
       TextView greetingText = ViewBindings.findChildViewById(rootView, id);
       if (greetingText == null) {
@@ -126,12 +110,6 @@ public final class FragmentAdminClientsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.search_icon;
-      ImageView searchIcon = ViewBindings.findChildViewById(rootView, id);
-      if (searchIcon == null) {
-        break missingId;
-      }
-
       id = R.id.tvListStatus;
       TextView tvListStatus = ViewBindings.findChildViewById(rootView, id);
       if (tvListStatus == null) {
@@ -139,7 +117,7 @@ public final class FragmentAdminClientsBinding implements ViewBinding {
       }
 
       return new FragmentAdminClientsBinding((DrawerLayout) rootView, backArrow, cardHeader,
-          cardIdentifiers, edSearchDoctor, greetingText, rvAdminClients, searchIcon, tvListStatus);
+          cardIdentifiers, greetingText, rvAdminClients, tvListStatus);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

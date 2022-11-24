@@ -28,7 +28,7 @@ class ActivityAdminClients : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = FragmentAdminClientsBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        fetchDoctorList()
+        fetchClientList()
         clientList = arrayListOf<CustomCustomer>()
         tempArrayList = arrayListOf<CustomCustomer>()
         backUpArray = arrayListOf<CustomCustomer>()
@@ -40,29 +40,6 @@ class ActivityAdminClients : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-        binding.edSearchDoctor.addTextChangedListener(object : TextWatcher {
-            @SuppressLint("NotifyDataSetChanged")
-            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-                clientList.addAll(backUpArray)
-                tempArrayList.clear()
-                clientAdapter.notifyDataSetChanged()
-            }
-
-            override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-
-            }
-
-            @SuppressLint("NotifyDataSetChanged")
-            override fun afterTextChanged(editable: Editable?) {
-                if (editable.toString().isEmpty()){
-                    clientAdapter.notifyDataSetChanged();
-                } else {
-                    filterRec(editable.toString())
-                }
-            }
-
-        })
-
     }
 
 private fun  filterRec(text:String){
@@ -75,7 +52,7 @@ private fun  filterRec(text:String){
 }
 
 
-    private fun fetchDoctorList() {
+    private fun fetchClientList() {
         try {
             dbRef = FirebaseDatabase.getInstance().getReference("Client")
             dbRef.addValueEventListener(object : ValueEventListener {

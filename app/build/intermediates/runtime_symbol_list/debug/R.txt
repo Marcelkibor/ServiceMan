@@ -3199,7 +3199,6 @@ int id edPassword 0x7f090121
 int id edPhone 0x7f090122
 int id edPhoneNo 0x7f090123
 int id edPhoneNumber 0x7f090124
-int id edSearchDoctor 0x7f090125
 int id edTime 0x7f090126
 int id edUsername 0x7f090127
 int id edit_query 0x7f090128
@@ -3478,7 +3477,6 @@ int id search_button 0x7f090239
 int id search_close_btn 0x7f09023a
 int id search_edit_frame 0x7f09023b
 int id search_go_btn 0x7f09023c
-int id search_icon 0x7f09023d
 int id search_mag_icon 0x7f09023e
 int id search_plate 0x7f09023f
 int id search_src_text 0x7f090240

@@ -48,10 +48,6 @@
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\drawable\\mpesa.png"
     },
     {
-        "merged": "com.example.petvet.app-merged_res-39:/layout_admin_panel.xml.flat",
-        "source": "com.example.petvet.app-main-41:/layout/admin_panel.xml"
-    },
-    {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\layout_fragment_rejected.xml.flat",
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\layout\\fragment_rejected.xml"
     },
@@ -410,6 +406,10 @@
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\layout_activity_client_change_account.xml.flat",
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\layout\\activity_client_change_account.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-merged_res-39:/layout_fragment_admin_clients.xml.flat",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_admin_clients.xml"
     },
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-merged_res-39:\\layout_vet_nav_header.xml.flat",

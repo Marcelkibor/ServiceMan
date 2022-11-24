@@ -3200,7 +3200,6 @@ id edPassword
 id edPhone
 id edPhoneNo
 id edPhoneNumber
-id edSearchDoctor
 id edTime
 id edUsername
 id edit_query
@@ -3479,7 +3478,6 @@ id search_button
 id search_close_btn
 id search_edit_frame
 id search_go_btn
-id search_icon
 id search_mag_icon
 id search_plate
 id search_src_text

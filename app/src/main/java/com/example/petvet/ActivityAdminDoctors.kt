@@ -48,21 +48,6 @@ class ActivityAdminServiceProviders : AppCompatActivity() {
         }
         fetchDoctorList()
 
-        binding.edSearchDoctor.addTextChangedListener(object : TextWatcher {
-            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-                doctorList.addAll(backUpArray)
-                tempArrayList.clear()
-            }
-
-            override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-
-            }
-
-            override fun afterTextChanged(editable: Editable?) {
-                filterRec(editable.toString())
-            }
-
-        })
     }
     @SuppressLint("NotifyDataSetChanged")
     private fun  filterRec(text:String){

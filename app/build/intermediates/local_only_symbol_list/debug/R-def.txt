@@ -158,7 +158,6 @@ id edPassword
 id edPhone
 id edPhoneNo
 id edPhoneNumber
-id edSearchDoctor
 id edTime
 id edUsername
 id greetingText
@@ -215,7 +214,6 @@ id rvCompletedPayments
 id rvCompletedPaymentss
 id rvRejected
 id sName
-id search_icon
 id serRv
 id servPhoto
 id serviceImage

@@ -128,10 +128,6 @@
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\layout\\vet_edit_request.xml"
     },
     {
-        "merged": "com.example.petvet.app-mergeDebugResources-38:/layout/admin_panel.xml",
-        "source": "com.example.petvet.app-main-41:/layout/admin_panel.xml"
-    },
-    {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-mergeDebugResources-38:\\layout\\admin_doctor_details.xml",
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\layout\\admin_doctor_details.xml"
     },
@@ -226,6 +222,10 @@
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-mergeDebugResources-38:\\layout\\try_image_upload.xml",
         "source": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-main-41:\\layout\\try_image_upload.xml"
+    },
+    {
+        "merged": "com.example.petvet.app-mergeDebugResources-38:/layout/fragment_admin_clients.xml",
+        "source": "com.example.petvet.app-main-41:/layout/fragment_admin_clients.xml"
     },
     {
         "merged": "C:\\Users\\Vincent\\.gradle\\daemon\\7.4\\com.example.petvet.app-mergeDebugResources-38:\\layout\\vet_nav_header.xml",

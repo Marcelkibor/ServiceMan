@@ -90,24 +90,6 @@
                 android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
-        <ImageView
-            android:id="@+id/search_icon"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_below="@id/cardIdentifiers"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/search">
-        </ImageView>
-
-        <EditText
-            android:id="@+id/edSearchDoctor"
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_below="@id/cardIdentifiers"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="7dp"
-            android:layout_toEndOf="@+id/search_icon"
-            android:hint="Search doctor" />
 
         <TextView
             android:id="@+id/tvListStatus"
@@ -126,7 +108,7 @@
             android:id="@+id/rvAdminClients"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/edSearchDoctor"
+            android:layout_below="@+id/cardIdentifiers"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp" />
